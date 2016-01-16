@@ -1,0 +1,152 @@
+---
+# Personal details
+name: Tim Hordern
+email: tim.hordern@gmail.com
+
+# Insert URLs without http://
+urls:
+- timhordern.com
+- github.com/mence
+
+projectexperience:
+- years: Jun 2015--Dec 2015
+  employer: "XO Group: Fashion Administration Tool"
+  url: http://www.xogroupinc.com
+  city: "New York, NY"
+  job: "Developer & Test Engineer"
+  tasks:
+    - "Developer & Test Engineer on React.js internal admin tool, reducing data entry time by 50-200%. Built infrastructure, build system, tooling & continuous integration to support team. Built API service contract testing suite in Node.js and Jasmine to allow safe refactoring."
+    - "Built team's first ever Docker application using a continuous delivery pipeline. Rebuilt Jenkins continuous integration environments, for faster feedback & cutting build queues."
+- years: Jun 2014--Jan 2015
+  employer: "Intent Media: Reporting Infrastructure"
+  url: http://www.intentmedia.com
+  job: "QA Engineer & Product Analyst"
+  city: "New York, NY"
+  tasks:
+    - "QA Engineer & Product Analyst for reporting team. Wrote automated tests using Cucumber-JVM and helped build our automated reporting tool as the first continuously deployed Docker application in production. Removed the previous manual process entirely, initially with UI macros and email automation."
+    - "Worked with product and technology leads to define priorities, clarify architecture, improve testability, and manage scope creep & organizational challenges."
+    - "Worked with internal stakeholders to resolve production critical issues rapidly and develop messaging for external impact."
+- years: Apr 2013--May 2013
+  employer: "ThoughtWorks Project: Government Rail Organisation"
+  url: http://www.thoughtworks.com
+  job: Product Designer
+  city: "Sydney, Australia"
+  tasks:
+    - "Designer for organisation-wide iOS application for rail network management. Ran user testing of iOS applications with range of users, including in-situ user testing sessions (onboard train). Built UI interfaces and developed overall user experience for consumers and staff."
+    - "Designed wireframes and prototypes for iOS applications. Developed assets in Illustrator."
+- years: Mar 2013
+  employer: "ThoughtWorks Project: Not-for-Profit Organisation"
+  url: http://www.thoughtworks.com
+  job: Quality Analyst
+  city: "Melbourne, Australia"
+  tasks:
+    - "Functional tester for Android tablet application. Performance tested Rails backend on Heroku."
+- years: Jan 2013
+  employer: "ThoughtWorks Project: Consumer Law Firm"
+  url: http://www.thoughtworks.com
+  job: "Developer & Quality Analyst"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Front End Developer, rapidly built prototypes in Node/CoffeeScript/Jade stack. Designed wireframes and UI components for prototype mockups."
+- years: Oct 2012--Jan 2013
+  employer: "ThoughtWorks Project: Global Charity Organisation"
+  url: http://www.thoughtworks.com
+  job: "Product Manager & Engineer"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Scoped & managed user stories with acceptance criteria in Atlassian JIRA. Analysed integration systems for future development work."
+    - "Tester for Customer Portal and services, incorporating exploratory testing and automated test development in Selenium. Built Gatling test suite in Scala for SOAP services, microservices and HTML5 front-end. Helped team optimise workflows, Kanban boards and metrics. Developed Bamboo CI dashboard and build light."
+- years: Jul 2012--Oct 2012
+  employer: "ThoughtWorks Project: Supermarket and Retail Chain"
+  url: http://www.thoughtworks.com
+  job: "Agile Consultant"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Product and Technical Consultant for agile and DevOps fast-track assessment. Conducted project analysis and inception planning for proposed fast-track project. Agile coaching of project team lead. Helped clarify and priotise user stories. Developed Kanban walls for pilot agile teams."
+- years: Nov 2011--Jul 2012
+  employer: "ThoughtWorks Project: Not-for-Profit Organisation"
+  url: http://www.thoughtworks.com
+  job: "Quality Analyst"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Tester for iOS application and .NET webservice, incorporating exploratory testing, accessibility testing, field handset testing and automated test development in Frank."
+    - "Built and managed TestFlight instance for 100+ internal and external beta users. Managed Jenkins instance and build pipeline. Developed build monitor dashboard and build lights."
+    - "Built visual design wall to elicit feedback from organisation in a cohesive product view."
+    - "Provided guidance on iTunes App Store submissions, management and marketing."
+    - "Tester for .NET web application, built automated tests in Selenium and conducted functional and exploratory testing. Worked out production fixes for identified bugs."
+- years: Aug 2011--Nov 2011
+  employer: "ThoughtWorks Project: Global Online Real Estate Advertising"
+  url: http://www.thoughtworks.com
+  job: "Quality Analyst"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Tester for Java/Ruby web application. Developed Cucumber acceptance tests for legacy product and training Java developers in adding tests."
+- years: Feb 2011--Jun 2011
+  employer: "ThoughtWorks Project: Advertising and Directory Listing"
+  url: http://www.thoughtworks.com
+  job: "Quality Analyst"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Tester for Ruby big data analytics and reporting platform, developed automated testing and conducted exploratory testing. Developed cross-team automated integration tests."
+- years: 2009
+  employer: "Accenture Project: Large Mining Industrial Company"
+  url: http://www.accenture.com
+  job: "Product Manager"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Established and coordinated project management office (PMO), planned future project phase resourcing & activities for transformation of $14bn mining company."
+- years: 2008
+  employer: "Accenture Project: Mail and Delivery Organisation"
+  url: http://www.accenture.com
+  job: "Test and Migrations Lead"
+  city: "Australia & New Zealand"
+  tasks:
+    - "Planned and delivered data migration effort for large SAP PM/MM upgrade, supporting maintenance of 11,000+ vehicles travelling more than 350 million kms. Managed team of developers, analysts and client SMEs. Built test strategy and conversions for SAP MM/PM upgrade."
+- years: 2006
+  employer: "Accenture Project: Supermarket and Retail Chain"
+  url: http://www.accenture.com
+  job: "Senior Tester"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Test Analyst for Oracle RPM implementation and in-store & POS retail systems for supermarket chain, handling $35 billion in transactions for 8.8 million consumers."
+    - "Supervised team of manual testers through test case development and execution. Generated progress trackers and coverage reporting."
+- years: 2004--2005
+  employer: "General Motors Project: SAP FICO (AP/AR) Upgrade"
+  url: http://www.holden.com.au
+  job: "Reporting & System Analyst"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Reporting/System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay processes."
+    - "Reporting and Database Analyst for Procurement department, with direct executive and CEO reporting. Developed and administered reporting toolsets and redeveloped key database to streamline end of month reconciliation."
+- years: 2003--2005
+  employer: "General Motors Project: SAP MM/SRM Implementation"
+  url: http://www.accenture.com
+  job: "Data Migrations Analyst & SRM System Analyst/Administrator"
+  city: "Melbourne, Australia"
+  tasks:
+    - "Delivered data migration and go-live capability for large SAP MM/SRM implementation. Led Conversions team across multiple rollouts and managed Data Cleansing team."
+    - "SAP SRM Analyst & System Administrator, developed and managed data in Requisite electronic catalogues, in conjunction with external vendors."
+
+sideprojects:
+- date: Dec 2015
+  name: "Quotes on Software Development"
+  url: http://www.quotesonsoftwaredevelopment.com
+  description:
+    - "A quick hack to play around with React.js. Displays quotes that I've collected on the art and craft of software development."
+- date: 2015
+  name: "Hashtag Testing Slack Chat"
+  url: http://hashtagtesting.com
+  description:
+    - "The largest QA community on Slack. Runs Slackin to handle registration and realtime user counts."
+- date: May 2014
+  name: "Workstation Builder"
+  url: https://github.com/mence/workstation-builder
+  description:
+    - "A shell tool to build out an OSX development environment. Chef for when you don't have Chef."
+
+# Settings
+mainfont: Hoefler Text
+fontsize: 10pt
+lang: English
+geometry: letterpaper, left=35mm, right=35mm, top=17mm, bottom=40mm
+---

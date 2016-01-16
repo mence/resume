@@ -1,0 +1,143 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, a4paper]{article}
+
+% LAYOUT
+%--------------------------------
+% Margins
+\usepackage{geometry}
+\geometry{$geometry$}
+
+% Do not indent paragraphs
+\setlength\parindent{0in}
+
+% Enable multicolumns
+\usepackage{multicol}
+\setlength{\columnsep}{-3.5cm}
+
+% Uncomment to suppress page numbers
+\pagenumbering{gobble}
+
+% Don't hyphenate words
+\usepackage[none]{hyphenat}
+
+% LANGUAGE
+%--------------------------------
+% Set the main language
+$if(lang)$
+\usepackage{polyglossia}
+\setmainlanguage{$lang$}
+$endif$
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+% Cool ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+% LISTS
+%--------------------------------
+\usepackage{paralist} %for the environment compactitem with less space between items
+\let\itemize\compactitem
+  \let\enditemize\endcompactitem
+  \let\enumerate\compactenum
+  \let\endenumerate\endcompactenum
+  \let\description\compactdesc
+  \let\enddescription\endcompactdesc
+  \pltopsep=-10pt
+  \plitemsep=-2pt
+  \plparsep=-10pt
+
+% PDF SETUP
+%--------------------------------
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={$name$},
+  pdfsubject={$name$'s CV},
+  pdftitle={$name$'s CV},
+  colorlinks, breaklinks, xetex, bookmarks,
+  filecolor=black,
+  urlcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  citecolor=[rgb]{0.117,0.682,0.858}
+}
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+{\LARGE{\href{http://timhordern.com/resume.pdf}{$name$}}}\\[.2cm]
+
+$if(urls)$
+\begin{multicols}{2}
+$endif$
+
+\vspace{-10pt}
+
+\href{mailto:$email$}{$email$}\\
+
+$if(urls)$
+\columnbreak
+
+$for(urls)$
+\href{http://$urls$}{$urls$}\\
+$endfor$
+\end{multicols}
+$endif$
+
+\href{http://timhordern.com/resume.pdf}{Main Resume Available at http://timhordern.com/resume}\\[.2cm]
+\vspace{-5pt}
+
+$if(projectexperience)$
+\section*{Resume Appendix: Detailed Project Experience}
+\noindent
+$for(projectexperience)$
+\note{$projectexperience.years$}\textsc{\href{$projectexperience.url$}{$projectexperience.employer$}}\\
+\emph{$projectexperience.job$}\\
+$projectexperience.city$\\[.2cm]
+\vspace{-10pt}
+$if(projectexperience.tasks)$
+\begin{itemize}
+{$for(projectexperience.tasks)$
+{\item \fussy{{$projectexperience.tasks$}}}\\
+$endfor$}
+\end{itemize}
+$endif$
+\vspace{5pt}
+$endfor$
+$endif$
+
+$if(sideprojects)$
+\section*{Resume Appendix: Side Projects}
+\noindent
+$for(sideprojects)$
+\note{$sideprojects.date$}\textsc{\href{$sideprojects.url$}{$sideprojects.name$}}\\
+$sideprojects.description$\\[.2cm]
+\vspace{5pt}
+$endfor$
+$endif$
+
+\end{document}
