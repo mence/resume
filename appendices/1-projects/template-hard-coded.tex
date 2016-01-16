@@ -1,0 +1,327 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, a4paper]{article}
+
+% LAYOUT
+%--------------------------------
+% Margins
+\usepackage{geometry}
+\geometry{$geometry$}
+
+% Do not indent paragraphs
+\setlength\parindent{0in}
+
+% Enable multicolumns
+\usepackage{multicol}
+\setlength{\columnsep}{-3.5cm}
+
+% Uncomment to suppress page numbers
+\pagenumbering{gobble}
+
+% Don't hyphenate words
+\usepackage[none]{hyphenat}
+
+% LANGUAGE
+%--------------------------------
+% Set the main language
+$if(lang)$
+\usepackage{polyglossia}
+\setmainlanguage{$lang$}
+$endif$
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+% Cool ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+% LISTS
+%--------------------------------
+\usepackage{paralist} %for the environment compactitem with less space between items
+\let\itemize\compactitem
+  \let\enditemize\endcompactitem
+  \let\enumerate\compactenum
+  \let\endenumerate\endcompactenum
+  \let\description\compactdesc
+  \let\enddescription\endcompactdesc
+  \pltopsep=-10pt
+  \plitemsep=-2pt
+  \plparsep=-10pt
+
+% PDF SETUP
+%--------------------------------
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={$name$},
+  pdfsubject={$name$'s CV},
+  pdftitle={$name$'s CV},
+  colorlinks, breaklinks, xetex, bookmarks,
+  filecolor=black,
+  urlcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  citecolor=[rgb]{0.117,0.682,0.858}
+}
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+{\LARGE {Tim Hordern}}\\[.2cm]
+
+\begin{multicols}{2}
+
+\vspace{-10pt}
+
+\href{mailto:tim.hordern@gmail.com}{tim.hordern@gmail.com}\\
+
+\columnbreak
+
+\href{http://timhordern.com}{timhordern.com}\\
+\href{http://github.com/mence}{github.com/mence}\\
+\end{multicols}
+
+\href{http://timhordern.com/resume.pdf}{Main Resume Available at http://timhordern.com/resume}\\[.2cm]
+\vspace{-5pt}
+
+\section*{Resume Appendix: Detailed Project Experience}
+\noindent
+\note{Jun 2015--Dec 2015}\textsc{\href{http://www.xogroupinc.com}{XO Group: Fashion Administration Tool}}\\
+\emph{Developer \& Test Engineer}\\
+New York, NY\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Developer \& Test Engineer on React.js internal admin tool, reducing
+data entry time by 50-200\%. Built infrastructure, build system, tooling
+\& continuous integration to support team. Built API service contract
+testing suite in Node.js and Jasmine to allow safe refactoring.}}}\\
+{\item \fussy{{Built team's first ever Docker application using a continuous delivery
+pipeline. Rebuilt Jenkins continuous integration environments, for
+faster feedback \& cutting build queues.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Jun 2014--Jan 2015}\textsc{\href{http://www.intentmedia.com}{Intent Media: Reporting Infrastructure}}\\
+\emph{QA Engineer \& Product Analyst}\\
+New York, NY\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{QA Engineer \& Product Analyst for reporting team. Wrote automated tests
+using Cucumber-JVM and helped build our automated reporting tool as the
+first continuously deployed Docker application in production. Removed
+the previous manual process entirely, initially with UI macros and email
+automation.}}}\\
+{\item \fussy{{Worked with product and technology leads to define priorities, clarify
+architecture, improve testability, and manage scope creep \&
+organizational challenges.}}}\\
+{\item \fussy{{Worked with internal stakeholders to resolve production critical issues
+rapidly and develop messaging for external impact.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Apr 2013--May 2013}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Government Rail Organisation}}\\
+\emph{Product Designer}\\
+Sydney, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Designer for organisation-wide iOS application for rail network
+management. Ran user testing of iOS applications with range of users,
+including in-situ user testing sessions (onboard train). Built UI
+interfaces and developed overall user experience for consumers and
+staff.}}}\\
+{\item \fussy{{Designed wireframes and prototypes for iOS applications. Developed
+assets in Illustrator.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Mar 2013}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Not-for-Profit Organisation}}\\
+\emph{Quality Analyst}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Functional tester for Android tablet application. Performance tested
+Rails backend on Heroku.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\newpage
+\note{Jan 2013}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Consumer Law Firm}}\\
+\emph{Developer \& Quality Analyst}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Front End Developer, rapidly built prototypes in Node/CoffeeScript/Jade
+stack. Designed wireframes and UI components for prototype mockups.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Oct 2012--Jan 2013}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Global Charity Organisation}}\\
+\emph{Product Manager \& Engineer}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Scoped \& managed user stories with acceptance criteria in Atlassian
+JIRA. Analysed integration systems for future development work.}}}\\
+{\item \fussy{{Tester for Customer Portal and services, incorporating exploratory
+testing and automated test development in Selenium. Built Gatling test
+suite in Scala for SOAP services, microservices and HTML5 front-end.
+Helped team optimise workflows, Kanban boards and metrics. Developed
+Bamboo CI dashboard and build light.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Jul 2012--Oct 2012}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Supermarket and Retail Chain}}\\
+\emph{Agile Consultant}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Product and Technical Consultant for agile and DevOps fast-track
+assessment. Conducted project analysis and inception planning for
+proposed fast-track project. Agile coaching of project team lead. Helped
+clarify and priotise user stories. Developed Kanban walls for pilot
+agile teams.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Nov 2011--Jul 2012}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Not-for-Profit Organisation}}\\
+\emph{Quality Analyst}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Tester for iOS application and .NET webservice, incorporating
+exploratory testing, accessibility testing, field handset testing and
+automated test development in Frank.}}}\\
+{\item \fussy{{Built and managed TestFlight instance for 100+ internal and external
+beta users. Managed Jenkins instance and build pipeline. Developed build
+monitor dashboard and build lights.}}}\\
+{\item \fussy{{Built visual design wall to elicit feedback from organisation in a
+cohesive product view.}}}\\
+{\item \fussy{{Provided guidance on iTunes App Store submissions, management and
+marketing.}}}\\
+{\item \fussy{{Tester for .NET web application, built automated tests in Selenium and
+conducted functional and exploratory testing. Worked out production fixes for identified bugs.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Aug 2011--Nov 2011}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Global Online Real Estate Advertising}}\\
+\emph{Quality Analyst}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Tester for Java/Ruby web application. Developed Cucumber acceptance
+tests for legacy product and training Java developers in adding tests.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{Feb 2011--Jun 2011}\textsc{\href{http://www.thoughtworks.com}{ThoughtWorks Project: Advertising and Directory Listing}}\\
+\emph{Quality Analyst}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Tester for Ruby big data analytics and reporting platform, developed
+automated testing and conducted exploratory testing. Developed
+cross-team automated integration tests.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\newpage
+\note{2009}\textsc{\href{http://www.accenture.com}{Accenture Project: Large Mining Industrial Company}}\\
+\emph{Product Manager}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Established and coordinated project management office (PMO), planned
+future project phase resourcing \& activities for transformation of 14bn mining company.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{2008}\textsc{\href{http://www.accenture.com}{Accenture Project: Mail and Delivery Organisation}}\\
+\emph{Test and Migrations Lead}\\
+Australia \& New Zealand\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Planned and delivered data migration effort for large SAP PM/MM upgrade,
+supporting maintenance of 11,000+ vehicles travelling more than 350
+million kms. Managed team of developers, analysts and client SMEs. Built
+test strategy and conversions for SAP MM/PM upgrade.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{2006}\textsc{\href{http://www.accenture.com}{Accenture Project: Supermarket and Retail Chain}}\\
+\emph{Senior Tester}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Test Analyst for Oracle RPM implementation and in-store \& POS retail
+systems for supermarket chain, handling 35 billion in transactions for
+8.8 million consumers.}}}\\
+{\item \fussy{{Supervised team of manual testers through test case development and
+execution. Generated progress trackers and coverage reporting.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{2004--2005}\textsc{\href{http://www.holden.com.au}{General Motors Project: SAP FICO (AP/AR) Upgrade}}\\
+\emph{Reporting \& System Analyst}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Reporting/System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay
+processes.}}}\\
+{\item \fussy{{Reporting and Database Analyst for Procurement department, with direct
+executive and CEO reporting. Developed and administered reporting
+toolsets and redeveloped key database to streamline end of month
+reconciliation.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+\note{2003--2005}\textsc{\href{http://www.accenture.com}{General Motors Project: SAP MM/SRM Implementation}}\\
+\emph{Data Migrations Analyst \& SRM System Analyst/Administrator}\\
+Melbourne, Australia\\[.2cm]
+\vspace{-10pt}
+\begin{itemize}
+{{\item \fussy{{Delivered data migration and go-live capability for large SAP MM/SRM
+implementation. Led Conversions team across multiple rollouts and
+managed Data Cleansing team.}}}\\
+{\item \fussy{{SAP SRM Analyst \& System Administrator, developed and managed data in
+Requisite electronic catalogues, in conjunction with external vendors.}}}\\
+}
+\end{itemize}
+\vspace{5pt}
+
+\section*{Resume Appendix: Side Projects}
+\noindent
+\note{Dec 2015}\textsc{\href{http://www.quotesonsoftwaredevelopment.com}{Quotes on Software Development}}\\
+A quick hack to play around with React.js. Displays quotes that I've
+collected on the art and craft of software development.\\[.2cm]
+\vspace{5pt}
+\note{2015}\textsc{\href{http://hashtagtesting.com}{Hashtag Testing Slack Chat}}\\
+The largest QA community on Slack. Runs Slackin to handle registration
+and realtime user counts.\\[.2cm]
+\vspace{5pt}
+\note{May 2014}\textsc{\href{https://github.com/mence/workstation-builder}{Workstation Builder}}\\
+A shell tool to build out an OSX development environment. Chef for when you don't have Chef.\\[.2cm]
+\vspace{5pt}
+
+\end{document}
