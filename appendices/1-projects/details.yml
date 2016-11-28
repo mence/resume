@@ -9,6 +9,27 @@ urls:
 - github.com/mence
 
 projectexperience:
+- years: May 2016
+  employer: "Spotify: User Insights Tool"
+  job: "Front-End Engineer and Test Engineer"
+  tasks:
+    - "Front-End Engineer for User Insights Tool: Wrote front-end in ES6 React.js, built via Babel, Webpack, ESLint, Enzyme and Karma. Styled frontend using components to handle internal Bootstrap framework."
+- years: Jan 2016-Mar 2016
+  employer: "XO Group: Concierge Planning Tools"
+  url: http://www.xogroupinc.com
+  city: "New York, NY"
+  job: "Engineer"
+  tasks:
+    - "Engineer on ES6 React.js and Redux administration tool, built via Babel, Webpack, ESLint, and Jest.
+    - "Engineer on ES6 React.js and Redux A/B experimentation tool, built via Babel, Webpack, ESLint, Enzyme, and Karma."
+- years: "Dec 2015--Jan 2016"
+  employer: "XO Group: Code Style and Architecture"
+  url: http://www.xogroupinc.com
+  city: "New York, NY"
+  job: "Code Style Guide Lead"
+  tasks:
+    - "Implemented Javascript Style Guide in ESLint as published package for projects to easily lint their code"
+    - "Implemented Ruby Style Guide in rubocop"
 - years: Jun 2015--Dec 2015
   employer: "XO Group: Fashion Administration Tool"
   url: http://www.xogroupinc.com

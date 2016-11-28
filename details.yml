@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Tim Hordern
-email: tim.hordern@gmail.com
+email: tim@timhordern.com
 
 # Insert URLs without http://
 urls:
@@ -12,9 +12,19 @@ urls:
 
 intro: >
   I'm a Testing and Continuous Integration person. I help build better products with a product management and quality mindset. Sometimes I just do all the things. I enjoy small teams working with fantastic people, building valuable products, on interesting technology and in the right culture.
+  
+  I'm currently seeking roles in Melbourne, Australia.
 
 experience:
-- years: 2015--Now
+- years: 2016--Now
+  employer: Spotify
+  url: http://www.spotify.com
+  job: QA Tester, Test Engineer
+  city: "New York, NY / Stockholm, Sweden"
+  tasks:
+    - "Front-end developer for internal analytics visualization project. Built React.js frontend displaying C3.js charts. Implemented build system using Webpack, ESLint, and Karma. Helped to build Jenkins CD infrastructure."
+    - "Helped to implement end to end Java tests driving Selenium for Creator project deployed via Docker."
+- years: 2015--2016
   employer: XO Group
   url: http://xogroupinc.com/
   job: Lead Software Engineer in Test
