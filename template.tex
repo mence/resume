@@ -114,6 +114,11 @@ $if(intro)$
 $intro$
 $endif$
 
+$if(seeking)$
+\vspace{5pt}
+I'm currently seeking $seeking.roles$ in $seeking.location$.
+$endif$
+
 $if(skills)$
 \subsection*{Skills}
 \begin{itemize}
@@ -138,8 +143,7 @@ $endif$
 \noindent
 $for(experience)$
 \note{$experience.years$}\textsc{\href{$experience.url$}{$experience.employer$}}\\
-\emph{$experience.job$}\\
-$experience.city$\\[.2cm]
+\emph{$experience.job$} -- $experience.city$\\[.2cm]
 \vspace{-10pt}
 $if(experience.tasks)$
 \begin{itemize}
@@ -151,12 +155,14 @@ $endif$
 \vspace{5pt}
 $endfor$
 
+\vspace{-11pt} % Reduce whitespace required
 $if(education)$
 \section*{Education}
+\vspace{-3pt} % Reduce whitespace under this minor heading
 \noindent
 $for(education)$
 \note{$education.year$}{\textbf{\href{$education.url$}{$education.subject$}}{$if(education.degree)$, $education.degree$}}$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\
+\emph{$education.institute$}$if(education.city)$ -- $education.city$$endif$\\
 $education.note$\\[.2cm]
 $endfor$
 $endif$
@@ -184,12 +190,14 @@ $for(personalinterests)$
 $endfor$
 $endif$
 
-\vspace{-5pt}
+\vspace{-20pt} % Reduce whitespace required between minor subsections
 $if(appendix)$
 \section*{Further Information}
+\vspace{-3pt} % Reduce whitespace under this minor heading
 $for(appendix)$
 {\textbf{\href{$appendix.url$}{$appendix.name$}}}\\
 \emph{$appendix.note$}\\[.2cm]
+\vspace{-1pt} % Shrink this section a little
 $endfor$
 $endif$
 

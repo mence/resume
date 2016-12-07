@@ -9,7 +9,12 @@ urls:
 - github.com/mence
 
 projectexperience:
-- years: May 2016
+- years: Jun 2016-Aug 2016
+  employer: "Spotify: Creator Project"
+  job: "QA Tester and Test Engineer"
+  tasks:
+    - "Helped implement end to end Dockerized Selenium Java tests."
+- years: May 2016-Jun 2016
   employer: "Spotify: User Insights Tool"
   job: "Front-End Engineer and Test Engineer"
   tasks:
@@ -109,21 +114,21 @@ projectexperience:
   city: "Melbourne, Australia"
   tasks:
     - "Tester for Ruby big data analytics and reporting platform, developed automated testing and conducted exploratory testing. Developed cross-team automated integration tests."
-- years: 2009
+- years: 2008--2009
   employer: "Accenture Project: Large Mining Industrial Company"
   url: http://www.accenture.com
   job: "Product Manager"
   city: "Melbourne, Australia"
   tasks:
     - "Established and coordinated project management office (PMO), planned future project phase resourcing & activities for transformation of $14bn mining company."
-- years: 2008
+- years: 2008--2008
   employer: "Accenture Project: Mail and Delivery Organisation"
   url: http://www.accenture.com
   job: "Test and Migrations Lead"
   city: "Australia & New Zealand"
   tasks:
     - "Planned and delivered data migration effort for large SAP PM/MM upgrade, supporting maintenance of 11,000+ vehicles travelling more than 350 million kms. Managed team of developers, analysts and client SMEs. Built test strategy and conversions for SAP MM/PM upgrade."
-- years: 2006
+- years: 2006--2007
   employer: "Accenture Project: Supermarket and Retail Chain"
   url: http://www.accenture.com
   job: "Senior Tester"
@@ -149,7 +154,7 @@ projectexperience:
     - "SAP SRM Analyst & System Administrator, developed and managed data in Requisite electronic catalogues, in conjunction with external vendors."
 
 sideprojects:
-- date: Dec 2015
+- date: 2015
   name: "Quotes on Software Development"
   url: http://www.quotesonsoftwaredevelopment.com
   description:
