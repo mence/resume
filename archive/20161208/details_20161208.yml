@@ -1,0 +1,140 @@
+---
+# Personal details
+name: Tim Hordern
+email: tim@timhordern.com
+
+# Insert URLs without http://
+urls:
+- timhordern.com
+- github.com/mence
+
+# Introduction
+intro: >
+  I'm a Testing and Continuous Integration person. I help build better products with a product management and quality mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture.
+
+seeking:
+# Example: I'm currently seeking {$roles} {in $location}.
+  roles: new opportunities
+  location: Melbourne, Australia
+
+# Sections
+experience:
+- years: 5/2016 -- 8/2016
+  employer: Spotify
+  url: http://www.spotify.com
+  job: QA Tester / Test Engineer
+  city: "New York, NY"
+  tasks:
+    - "Front-end developer for internal analytics visualization project. Built React.js frontend rendering C3.js charts for Google BigQuery results. Implemented build system using Webpack, ESLint, and Karma. Helped build and deploy Jenkins continuous deployment (CD) infrastructure."
+    - "Helped implement end to end Dockerized Selenium Java tests for Creator project."
+- years: 3/2015 -- 4/2016
+  employer: XO Group
+  url: http://xogroupinc.com/
+  job: Lead Software Engineer in Test
+  city: "New York, NY"
+  tasks:
+    - "Lead Test Engineer for internal React.js app, building features, infrastructure, automation suites & the CI build system, after helping rescue original project. Helped shape user flows and built up library of React UI components to match designs."
+    - "Built first Docker application using continuous delivery pipeline for content team. Built tooling to clone production into local Docker containers for a better development environment. Rebuilt Jenkins environments for faster feedback & smaller build queues."
+    - "Ran first ever XO internal hackathon with 20 apps built, including one saving us $80k annually."
+    - "Pushed to improve code quality, using developer pairing/coaching, building style guides & linters, and implementing improved testing practices & standards."
+- years: 6/2013 -- 3/2015
+  employer: Intent Media
+  url: http://www.intentmedia.com
+  job: Agile QA Engineer
+  city: "New York, NY"
+  tasks:
+    - "QA Engineer & Product Analyst for first continuous delivery reporting tool, developing features, prioritised and scoped work, built prototypes and developed automated test suites."
+    - "Performed functional testing on Intent's full stack which featured a combination of Javascript, Java, Rails, MySQL, Vertica, S3, MongoDB, iOS, and backend Node applications. Built production test for service verification."
+    - "Grew QA team, recruiting engineers, building performance test suites, and redefined practices & recruitment processes."
+- years: 1/2011 -- 6/2013
+  employer: ThoughtWorks
+  url: http://www.thoughtworks.com
+  job: Senior Consultant
+  city: "Melbourne, Australia"
+  tasks:
+  - "Held a number of consultant QA Engineer / Tester roles, notably testing Ruby, Node, Android and iOS applications, developing test automation and conducting exploratory testing. Additionally, I built performance test suites, as well as managed and optimised Jenkins continuous integration systems. Internal advisor on iOS application automation and submission processes."
+  - "Product Designer for a suite of iOS applications for over 30,000 government staff and public customers. Ran user testing of iOS applications with range of users, including in-situ user testing sessions. Designed wireframes and prototypes for iOS applications and information kiosks. Designed icons and UI, from wireframe sketches to Illustrator assets."
+- years: 2010 -- 2010
+  employer: Infosys
+  url: http://www.infosys.com
+  job: Technical Test Lead
+  city: "Melbourne, Australia"
+  tasks:
+    - "Test Manager for SAP SRM Upgrade project, leading onsite and remote testing teams."
+- years: 2006 -- 2009
+  employer: Accenture
+  url: http://www.accenture.com
+  job: Consultant
+  city: "Melbourne, Australia"
+  tasks:
+    - "Worked with a number of Australian and multinational organisations through their trnasformations."
+    - "Established and coordinated project management office (PMO), planned future project phase resourcing & activities for transformation of $14bn mining company."
+    - "Planned and delivered data migration effort for large SAP PM/MM upgrade, supporting maintenance of 11,000+ vehicles travelling more than 350 million kms. Managed team of developers, analysts and client SMEs. Built test strategy and conversions for SAP MM/PM upgrade."
+    - "Test Analyst for Oracle RPM implementation and in-store & POS retail systems for supermarket chain, handling $35 billion in transactions for 8.8 million consumers."
+- years: 2003 -- 2005
+  employer: General Motors Holden
+  url: http://www.holden.com.au
+  job: Analyst
+  city: "Melbourne, Australia"
+  tasks:
+    - "Reporting/System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay processes."
+    - "SAP SRM Analyst & System Administrator, developed and managed data in Requisite electronic catalogues, in conjunction with external vendors."
+    - "Reporting and Database Analyst for procurement department, reporting directly to  executive team and CEO. Developed and administered reporting toolsets and redeveloped key database to streamline end of month reconciliation."
+    - "Delivered data migration and go-live capability for large SAP MM/SRM implementation. Led conversions team across multiple rollouts and managed data cleansing team."
+
+education:
+# - year: 2014 -- 2015
+#   subject: Product Management
+#   institute: General Assembly
+#   city: "New York, NY"
+#   url: https://generalassemb.ly/education/product-management
+- year: 2009 -- 2010
+  subject: Master of Public Policy and Management
+  institute: University of Melbourne
+  city: "Melbourne, Australia"
+  url: https://government.unimelb.edu.au/degrees/23-master-of-public-policy-and-management
+  note: "Concentration on project management and implementation."
+- year: 2001 -- 2005
+  subject: Bachelor of Information Systems
+  institute: University of Melbourne
+  city: "Melbourne, Australia"
+  url: https://handbook.unimelb.edu.au/view/2013/269AA?output=PDF
+  note: "Split degree of Commerce and Information Systems. Graduated earlier with BIS to pursue work opportunities."
+
+# languages:
+# - language: JavaScript
+#   proficiency: Intermediate
+# - language: Ruby
+#   proficiency: Intermediate
+
+# projects:
+# - project: "Quotes on Software Development"
+#   url: http://quotesonsoftwaredevelopment.com/
+#   description: Experimenting with React
+
+# personalinterests:
+# - interest: Ultimate Frisbee
+#   url:
+#   year: 2005--2015
+#   detail: "President of 2 clubs for 5 years, captained, traveled to Malaysia & the Phillippines to compete"
+
+appendix:
+- name: "Project Experience"
+  url: http://timhordern.com/resume-projects.pdf
+  note: "More details of my consulting and work projects"
+- name: "Side Projects"
+  url: http://timhordern.com/projects
+  note: "Details of some side projects I've built"
+- name: "/now"
+  url: http://timhordern.com/now
+  note: "What I'm working on now"
+# - name: "/other"
+#   url: http://timhordern.com/other
+#   note: "The non-work side of me: mostly ultimate frisbee, photography, travel, coffee and cats."
+
+# Settings
+mainfont: Hoefler Text
+fontsize: 10pt
+lang: English
+geometry: letterpaper, left=35mm, right=35mm, top=17mm, bottom=22mm
+---
