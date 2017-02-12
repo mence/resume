@@ -25,7 +25,7 @@ projectexperience:
   city: "New York, NY"
   job: "Engineer"
   tasks:
-    - "Engineer on ES6 React.js and Redux administration tool, built via Babel, Webpack, ESLint, and Jest.
+    - "Engineer on ES6 React.js and Redux administration tool, built via Babel, Webpack, ESLint, and Jest."
     - "Engineer on ES6 React.js and Redux A/B experimentation tool, built via Babel, Webpack, ESLint, Enzyme, and Karma."
 - years: "Dec 2015--Jan 2016"
   employer: "XO Group: Code Style and Architecture"
