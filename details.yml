@@ -43,7 +43,7 @@ experience:
     city: "Melbourne, Australia"
     tasks:
       - "Team lead for GreenSync's internal scaling/optimisation team. Expertise developed here led us to own hardware development and software integrations across GreenSync."
-      - "Led product and operations redesign of Peak Response Unit to enable scaling, outsourced manufacturing, leading to the build of 100s of units enabling a primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
+      - "Led product and operations redesign of Peak Response Unit to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling a primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
       - "Led standardisation of Procure-To-Deliver process for turnkey PRU 3.0 hardware solution including 'Code-Driven' procurement/configuration, fully replacing a manual process."
       - "Designed and architected integration with Tesla GridLogic system and PowerWall 2, as well as metering providers."
       - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
@@ -168,6 +168,5 @@ appendix:
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: en-US
-geometry: a4paper, left=35mm, right=35mm, top=17mm, bottom=22mm
+geometry: a4paper, left=35mm, right=25mm, top=17mm, bottom=22mm
 ---
-
