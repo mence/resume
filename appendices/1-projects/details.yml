@@ -1,180 +1,306 @@
 ---
 # Personal details
 name: Tim Hordern
-email: tim.hordern@gmail.com
+email: tim@timhordern.com
 
 # Insert URLs without http://
 urls:
-- timhordern.com
-- github.com/mence
+  - timhordern.com
+  - github.com/mence
 
 projectexperience:
-- years: Jun 2016-Aug 2016
-  employer: "Spotify: Creator"
-  url: http://www.spotify.com
-  job: "QA Tester and Test Engineer"
-  tasks:
-    - "Helped implement end to end Dockerized Selenium Java tests."
-- years: May 2016-Jun 2016
-  employer: "Spotify: User Insights Tool"
-  url: http://www.spotify.com
-  job: "Front-End Engineer and Test Engineer"
-  tasks:
-    - "Front-End Engineer for User Insights Tool: Wrote front-end in ES6 React.js, built via Babel, Webpack, ESLint, Enzyme and Karma. Styled frontend using components to handle internal Bootstrap framework."
-- years: Jan 2016-Mar 2016
-  employer: "XO Group: Concierge Planning Tools"
-  url: http://www.xogroupinc.com
-  city: "New York, NY"
-  job: "Engineer"
-  tasks:
-    - "Engineer on ES6 React.js and Redux administration tool, built via Babel, Webpack, ESLint, and Jest."
-    - "Engineer on ES6 React.js and Redux A/B experimentation tool, built via Babel, Webpack, ESLint, Enzyme, and Karma."
-- years: "Dec 2015--Jan 2016"
-  employer: "XO Group: Code Style and Architecture"
-  url: http://www.xogroupinc.com
-  city: "New York, NY"
-  job: "Code Style Guide Lead"
-  tasks:
-    - "Implemented Javascript Style Guide in ESLint as published package for projects to easily lint their code"
-    - "Implemented Ruby Style Guide in rubocop"
-- years: Jun 2015--Dec 2015
-  employer: "XO Group: Fashion Administration Tool"
-  url: http://www.xogroupinc.com
-  city: "New York, NY"
-  job: "Developer & Test Engineer"
-  tasks:
-    - "Developer & Test Engineer on React.js internal admin tool, reducing data entry time by 50-200%. Built infrastructure, build system, tooling & continuous integration to support team. Built API service contract testing suite in Node.js and Jasmine to allow safe refactoring."
-    - "Built team's first ever Docker application using a continuous delivery pipeline. Rebuilt Jenkins continuous integration environments, for faster feedback & cutting build queues."
-- years: Jun 2014--Jan 2015
-  employer: "Intent Media: Reporting Infrastructure"
-  url: http://www.intentmedia.com
-  job: "QA Engineer & Product Analyst"
-  city: "New York, NY"
-  tasks:
-    - "QA Engineer & Product Analyst for reporting team. Wrote automated tests using Cucumber-JVM and helped build our automated reporting tool as the first continuously deployed Docker application in production. Removed the previous manual process entirely, initially with UI macros and email automation."
-    - "Worked with product and technology leads to define priorities, clarify architecture, improve testability, and manage scope creep & organizational challenges."
-    - "Worked with internal stakeholders to resolve production critical issues rapidly and develop messaging for external impact."
-- years: Apr 2013--May 2013
-  employer: "ThoughtWorks Project: Government Rail Organisation"
-  url: http://www.thoughtworks.com
-  job: Product Designer
-  city: "Sydney, Australia"
-  tasks:
-    - "Designer for organisation-wide iOS application for rail network management. Ran user testing of iOS applications with range of users, including in-situ user testing sessions (onboard train). Built UI interfaces and developed overall user experience for consumers and staff."
-    - "Designed wireframes and prototypes for iOS applications. Developed assets in Illustrator."
-- years: Mar 2013
-  employer: "ThoughtWorks Project: Not-for-Profit Organisation"
-  url: http://www.thoughtworks.com
-  job: Quality Analyst
-  city: "Melbourne, Australia"
-  tasks:
-    - "Functional tester for Android tablet application. Performance tested Rails backend on Heroku."
-- years: Jan 2013
-  employer: "ThoughtWorks Project: Consumer Law Firm"
-  url: http://www.thoughtworks.com
-  job: "Developer & Quality Analyst"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Front End Developer, rapidly built prototypes in Node/CoffeeScript/Jade stack. Designed wireframes and UI components for prototype mockups."
-- years: Oct 2012--Jan 2013
-  employer: "ThoughtWorks Project: Global Charity Organisation"
-  url: http://www.thoughtworks.com
-  job: "Product Manager & Engineer"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Scoped & managed user stories with acceptance criteria in Atlassian JIRA. Analysed integration systems for future development work."
-    - "Tester for Customer Portal and services, incorporating exploratory testing and automated test development in Selenium. Built Gatling test suite in Scala for SOAP services, microservices and HTML5 front-end. Helped team optimise workflows, Kanban boards and metrics. Developed Bamboo CI dashboard and build light."
-- years: Jul 2012--Oct 2012
-  employer: "ThoughtWorks Project: Supermarket and Retail Chain"
-  url: http://www.thoughtworks.com
-  job: "Agile Consultant"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Product and Technical Consultant for agile and DevOps fast-track assessment. Conducted project analysis and inception planning for proposed fast-track project. Agile coaching of project team lead. Helped clarify and priotise user stories. Developed Kanban walls for pilot agile teams."
-- years: Nov 2011--Jul 2012
-  employer: "ThoughtWorks Project: Not-for-Profit Organisation"
-  url: http://www.thoughtworks.com
-  job: "Quality Analyst"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Tester for iOS application and .NET webservice, incorporating exploratory testing, accessibility testing, field handset testing and automated test development in Frank."
-    - "Built and managed TestFlight instance for 100+ internal and external beta users. Managed Jenkins instance and build pipeline. Developed build monitor dashboard and build lights."
-    - "Built visual design wall to elicit feedback from organisation in a cohesive product view."
-    - "Provided guidance on iTunes App Store submissions, management and marketing."
-    - "Tester for .NET web application, built automated tests in Selenium and conducted functional and exploratory testing. Worked out production fixes for identified bugs."
-- years: Aug 2011--Nov 2011
-  employer: "ThoughtWorks Project: Global Online Real Estate Advertising"
-  url: http://www.thoughtworks.com
-  job: "Quality Analyst"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Tester for Java/Ruby web application. Developed Cucumber acceptance tests for legacy product and training Java developers in adding tests."
-- years: Feb 2011--Jun 2011
-  employer: "ThoughtWorks Project: Advertising and Directory Listing"
-  url: http://www.thoughtworks.com
-  job: "Quality Analyst"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Tester for Ruby big data analytics and reporting platform, developed automated testing and conducted exploratory testing. Developed cross-team automated integration tests."
-- years: 2008--2009
-  employer: "Accenture Project: Large Mining Industrial Company"
-  url: http://www.accenture.com
-  job: "Product Manager"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Established and coordinated project management office (PMO), planned future project phase resourcing & activities for transformation of $14bn mining company."
-- years: 2008--2008
-  employer: "Accenture Project: Mail and Delivery Organisation"
-  url: http://www.accenture.com
-  job: "Test and Migrations Lead"
-  city: "Australia & New Zealand"
-  tasks:
-    - "Planned and delivered data migration effort for large SAP PM/MM upgrade, supporting maintenance of 11,000+ vehicles travelling more than 350 million kms. Managed team of developers, analysts and client SMEs. Built test strategy and conversions for SAP MM/PM upgrade."
-- years: 2006--2007
-  employer: "Accenture Project: Supermarket and Retail Chain"
-  url: http://www.accenture.com
-  job: "Senior Tester"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Test Analyst for Oracle RPM implementation and in-store & POS retail systems for supermarket chain, handling $35 billion in transactions for 8.8 million consumers."
-    - "Supervised team of manual testers through test case development and execution. Generated progress trackers and coverage reporting."
-- years: 2004--2005
-  employer: "General Motors Project: SAP FICO (AP/AR) Upgrade"
-  url: http://www.holden.com.au
-  job: "Reporting & System Analyst"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Reporting/System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay processes."
-    - "Reporting and Database Analyst for Procurement department, with direct executive and CEO reporting. Developed and administered reporting toolsets and redeveloped key database to streamline end of month reconciliation."
-- years: 2003--2005
-  employer: "General Motors Project: SAP MM/SRM Implementation"
-  url: http://www.accenture.com
-  job: "Data Migrations Analyst & SRM System Analyst/Administrator"
-  city: "Melbourne, Australia"
-  tasks:
-    - "Delivered data migration and go-live capability for large SAP MM/SRM implementation. Led Conversions team across multiple rollouts and managed Data Cleansing team."
-    - "SAP SRM Analyst & System Administrator, developed and managed data in Requisite electronic catalogues, in conjunction with external vendors."
+  - years: Jan 2019-Nov 2019
+    employer: "GreenSync: deX Markets"
+    url: https://greensync.com
+    city: "Melbourne, Australia"
+    job: "Head of Markets"
+    tasks:
+      - "TODO"
+  - years: Jun 2018-Jan 2019
+    employer: "GreenSync: deX Team"
+    url: https://greensync.com
+    city: "Melbourne, Australia"
+    job: "Team Lead"
+    tasks:
+      - "TODO"
+  - years: Apr 2017-Dec 2017
+    employer: "GreenSync: Hardware & Integrations Team"
+    url: https://greensync.com
+    city: "Melbourne, Australia"
+    job: "Team Lead"
+    tasks:
+      - "TODO"
+  - years: Apr 2017-Dec 2017
+    employer: "GreenSync: Delivery Transformation Team"
+    url: https://greensync.com
+    city: "Melbourne, Australia"
+    job: "Team Lead"
+    tasks:
+      - "TODO"
+  - years: Jun 2016-Aug 2016
+    employer: "Spotify: Creator"
+    url: http://www.spotify.com
+    city: "New York, NY"
+    job: "QA Tester and Test Engineer"
+    tasks:
+      - "Helped implement end to end Dockerized Selenium Java tests."
+  - years: May 2016-Jun 2016
+    employer: "Spotify: User Insights Tool"
+    url: http://www.spotify.com
+    city: "New York, NY"
+    job: "Front-End Engineer and Test Engineer"
+    tasks:
+      - "Front-End Engineer for User Insights Tool: Wrote front-end in ES6 React.js, built via Babel, Webpack, ESLint, Enzyme and Karma. Styled frontend using components to handle internal Bootstrap framework."
+  - years: Jan 2016-Mar 2016
+    employer: "XO Group: Concierge Planning Tools"
+    url: http://www.xogroupinc.com
+    city: "New York, NY"
+    job: "Engineer"
+    tasks:
+      - "Engineer on ES6 React.js and Redux administration tool, built via Babel, Webpack, ESLint, and Jest."
+      - "Engineer on ES6 React.js and Redux A/B experimentation tool, built via Babel, Webpack, ESLint, Enzyme, and Karma."
+  - years: "Dec 2015--Jan 2016"
+    employer: "XO Group: Code Style and Architecture"
+    url: http://www.xogroupinc.com
+    city: "New York, NY"
+    job: "Code Style Guide Lead"
+    tasks:
+      - "Implemented Javascript Style Guide in ESLint as published package for projects to easily lint their code"
+      - "Implemented Ruby Style Guide in rubocop"
+  - years: Jun 2015--Dec 2015
+    employer: "XO Group: Fashion Administration Tool"
+    url: http://www.xogroupinc.com
+    city: "New York, NY"
+    job: "Developer & Test Engineer"
+    tasks:
+      - "Developer & Test Engineer on React.js internal admin tool, reducing data entry time by 50-200%. Built infrastructure, build system, tooling & continuous integration to support team. Built API service contract testing suite in Node.js and Jasmine to allow safe refactoring."
+      - "Built team's first ever Docker application using a continuous delivery pipeline. Rebuilt Jenkins continuous integration environments, for faster feedback & cutting build queues."
+  - years: Jun 2014--Jan 2015
+    employer: "Intent Media: Reporting Infrastructure"
+    url: http://www.intentmedia.com
+    job: "QA Engineer & Product Analyst"
+    city: "New York, NY"
+    tasks:
+      - "QA Engineer & Product Analyst for reporting team. Wrote automated tests using Cucumber-JVM and helped build our automated reporting tool as the first continuously deployed Docker application in production. Removed the previous manual process entirely, initially with UI macros and email automation."
+      - "Worked with product and technology leads to define priorities, clarify architecture, improve testability, and manage scope creep & organizational challenges."
+      - "Worked with internal stakeholders to resolve production critical issues rapidly and develop messaging for external impact."
+  - years: Apr 2013--May 2013
+    employer: "ThoughtWorks Project: iOS (iPhone/iPad) Rail Network Management Application"
+    url: http://www.thoughtworks.com
+    job: Product Designer
+    city: "Sydney, Australia"
+    tasks:
+      - "Designer for organisation-wide iOS application for rail network management. Ran user testing of iOS applications with range of users, including in-situ user testing sessions (onboard train). Built UI interfaces and developed overall user experience for consumers and staff."
+      - "Designed wireframes and prototypes for iOS applications. Developed assets in Illustrator."
+  - years: Mar 2013
+    employer: "ThoughtWorks Project: Android Health Management Tablet Application"
+    url: http://www.thoughtworks.com
+    job: Quality Analyst
+    city: "Melbourne, Australia"
+    tasks:
+      - "Functional tester for Android tablet application. Performance tested Rails backend on Heroku."
+  - years: Jan 2013
+    employer: "ThoughtWorks Project: Front-End Prototypes"
+    url: http://www.thoughtworks.com
+    job: "Developer & Quality Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Front End Developer, rapidly built prototypes in Node/CoffeeScript/Jade stack. Designed wireframes and UI components for prototype mockups."
+  - years: Oct 2012--Jan 2013
+    employer: "ThoughtWorks Project: Customer Portal"
+    url: http://www.thoughtworks.com
+    job: "Product Manager & Engineer"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Scoped & managed user stories with acceptance criteria in Atlassian JIRA. Analysed integration systems for future development work."
+      - "Tester for Customer Portal and services, incorporating exploratory testing and automated test development in Selenium. Built Gatling test suite in Scala for SOAP services, microservices and HTML5 front-end. Helped team optimise workflows, Kanban boards and metrics. Developed Bamboo CI dashboard and build light."
+  - years: Jul 2012--Oct 2012
+    employer: "ThoughtWorks Project: Agile and DevOps Assessment"
+    url: http://www.thoughtworks.com
+    job: "Agile Consultant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Product and Technical Consultant for agile and DevOps fast-track assessment. Conducted project analysis and inception planning for proposed fast-track project. Agile coaching of project team lead. Helped clarify and priotise user stories. Developed Kanban walls for pilot agile teams."
+  - years: Nov 2011--Jul 2012
+    employer: "ThoughtWorks Project: iOS (iPhone/iPad) Application"
+    url: http://www.thoughtworks.com
+    job: "Quality Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Tester for iOS application and .NET webservice, incorporating exploratory testing, accessibility testing, field handset testing and automated test development in Frank."
+      - "Built and managed TestFlight instance for 100+ internal and external beta users. Managed Jenkins instance and build pipeline. Developed build monitor dashboard and build lights."
+      - "Built visual design wall to elicit feedback from organisation in a cohesive product view."
+      - "Provided guidance on iTunes App Store submissions, management and marketing."
+      - "Tester for .NET web application, built automated tests in Selenium and conducted functional and exploratory testing. Worked out production fixes for identified bugs."
+  - years: Aug 2011--Nov 2011
+    employer: "ThoughtWorks Project: Real Estate Website"
+    url: http://www.thoughtworks.com
+    job: "Quality Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Tester for Java/Ruby web application. Developed Cucumber acceptance tests for legacy product and training Java developers in adding tests."
+  - years: Feb 2011--Jun 2011
+    employer: "ThoughtWorks Project: Advertising/Directory Listing Analytics and Reporting Platform"
+    url: http://www.thoughtworks.com
+    job: "Quality Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Tester for Ruby big data analytics and reporting platform, developed automated testing and conducted exploratory testing. Developed cross-team automated integration tests."
+  - years: 2010
+    employer: Infosys
+    url: http://www.infosys.com
+    job: Technical Test Lead
+    city: "Melbourne, Australia"
+    tasks:
+      - "Test Manager for SAP SRM Upgrade project, leading onsite and remote testing teams."
+  - years: 2009
+    employer: "Australian Flying Disc Association (AFDA)"
+    url: http://www.afda.com
+    job: "Web Developer"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Developed the 2009 Melbourne Hat tournament website, providing information for participants and other interested parties."
+  - years: 2008
+    employer: "Australian Flying Disc Association (AFDA)"
+    url: http://www.afda.com
+    job: "Web Developer"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Developed the 2008 Melbourne Hat tournament website, providing information for participants and other interested parties."
+  - years: 2008
+    employer: "Australian Flying Disc Association (AFDA)"
+    url: http://www.afda.com
+    job: "Information Technology Consultant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Reviewed IT requirements and introduced preliminary project management practices."
+      - "Drafted service management guidelines for dealing with outsource service providers."
+      - "Developed outline for AFDA website redevelopment."
+  - years: 2008
+    employer: "Accenture Project: SAP MM/PM Implementation"
+    url: http://www.accenture.com
+    job: "Project Manager"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Project Management Consultant, established and managed project management (PMO) activities and planned future project phase resourcing and activities for upcoming transformation of $14bn mining company."
+      - "Developed and implemented PMO approach and procedures guidelines. Created PMO handbook to outline methodology undertaken and codify procedures. "
+      - "Developed project issue & risk logs, established regular review processes and facilitated review meetings with project leadership. Prepared PMO team and project status reports. Managed project Microsoft SharePoint site and integrated issue & risk logs. Created and tracked deliverable matrix."
+      - "Revised resource and project plans and assisted in recruitment of project resources. Performed project administration including time and expense management."
+      - "Coordinated estimates for $100+ million of SAP implementation work during intensive re-planning efforts. Established clear process for handling project estimation."
+      - "Developed project organisational chart, streamlining resource plan updates into chart. Developed Design Phase project plan and refined Blueprint Phase project plan and management procedures."
+  - years: 2007--2008
+    employer: "Accenture Project: SAP PM/MM Upgrade"
+    url: http://www.accenture.com
+    job: "Conversions (Data Migration) Team Lead"
+    city: "Australia"
+    tasks:
+      - "Conversions (Data Migrations) Team Lead, planned and delivered data migration effort for large SAP PM and MM upgrade/implementation, supporting maintenance of 11,000+ vehicles travelling more than 350 million kms. Managed a diverse team of developers, analysts and client SMEs, reporting to senior leadership team."
+      - "Planned and delivered multiple rigorous Test Conversions, delivering a smooth project Go-Live. Led Conversions team to successfully convert significant system objects into upgraded SAP environment from multiple disparate environments, including existing SAP custom-developed module. Worked with business resources to validate processes and converted data and supported in-team client resources. Trained and mentored new Accenture technical and functional resources."
+      - "Developed range of Conversions programs in LSMW/CATT ensuring most appropriate standard/custom transactions chosen for stability of uploads. Identified reusability of Conversions programs for business as bulk upload/change programs. Created extensive databases and spreadsheets to automate data cleansing process, significantly reducing manual input in data cleansing process."
+      - "Provided onsite post Go-Live support across multiple client locations in Australia. Transitioned post Go-Live Conversions activities to Support team."
+      - "Developed Conversions Mapping and Guides to assist team in executing Conversions programs/processes with minimal errors. Developed Conversions Approach and a detailed Project Plan."
+      - "Performed code review/QA including unit/system testing on ABAP, LSMW and Mercury WinRunner Conversions programs. Managed development transport migration in Rev-Trac. "
+  - years: 2007
+    employer: "Accenture Project: SAP PM/MM Upgrade"
+    url: http://www.accenture.com
+    job: "Conversions (Data Migration) and Test Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Conversions and Test Analyst, created Strategy documents and planned Conversions work for future phase of SAP MM and PM implementation/upgrade at a large postal client."
+      - "Created Conversion Strategy, setting out guidelines for test and final conversions and exit/entry/success criteria."
+      - "Created Test Strategy, including selecting a preferred test model and performance criteria. Estimated and sized the Conversions team and workload, including developing a project plan estimate for the Conversions team."
+  - years: 2006--2007
+    employer: "Accenture Project: Oracle RPM Implementation"
+    url: http://www.accenture.com
+    job: "Senior Tester"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Functional and Integration Test Analyst for the backend Oracle (Retek) Retail Price Management (RPM) implementation and downstream in-store & POS retail systems, for supermarket chain, handling $35 billion in transactions for 8.8 million consumers. "
+      - "Designed FIT test sets from business requirements. Identified technical requirements for test sets and established sample data sets."
+      - "Executed successful manual testing of large test sets above targets without triggering overtime within Retek (across RMS, RDF, RPM instances), POS and client architecture. Accurately recorded and managed test set execution in Quality Center. Identified and recorded defects during test execution and tracked them to closure with Fix teams."
+      - "Supervised team of manual testers through test case development and execution. Generated progress trackers and coverage reporting."
+      - "Assisted test managers in coordinating day-to-day testing with reports, test set analysis and coordination with other technical and business teams. Captured phase Lessons Learnt and presented to leadership team."
+      - "Developed reporting tools for Test managers, utilising Mercury Quality Center and Excel, charting execution rates, defect management/closure and overall testing status."
+      - "Developed and conducted training, including brown bag and induction sessions."
+  - years: 2006
+    employer: "Accenture Project: SAP Retail Bid"
+    url: http://www.accenture.com
+    job: "Business Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Business Analyst for a SAP Retail implementation bid at a large postal client."
+  - years: Jan 2005--Oct 2005
+    employer: "General Motors Holden"
+    url: http://www.holden.com.au
+    job: "Reporting & System Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Reporting and System Analyst, analysed SAP R/3 Accounts Payable (AP), invoice management and overall Procure-To-Pay processes."
+      - "Identified KPIs within SAP R/3 and Requisite to track procurement and financial management status. Created executive dashboard and delivered weekly financial and performance reporting to Holden CEO, Board and Executive Directors."
+      - "Produced in-depth analysis and reporting for Executive Director of World Wide Procurement using extracts and custom reports within SAP R/3 and Requisite catalogue environments. Delivered reporting and functional analysis/testing for SAP teams. Identified root-cause SAP MM Procurement issues and drafted solutions for outsourced support team. Tracked and reported on issues/defects to closure."
+      - "Helped optimise the invoice processing and Procure-To-Pay processes by identifying faults in the invoicing process, tracing incorrect invoices and tracking data errors."
+  - years: Nov 2004--Oct 2005
+    employer: "General Motors Holden"
+    url: http://www.holden.com.au
+    job: "Product Owner - Supplier Catalogues"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Product Owner for SRM Catalogue I helped developed, working with key stakeholders to help Holden staff to browse and electronically procure from external vendors."
+      - "Worked with external stakeholders to onboard their electronic product catalogues, identify product improvements, and validate their data, and improving onboarding process. Conducted end-to-end testing for catalogues through Requisite, SAP SRM and R/3 to trap errors prior to user access. Refined electronic catalogue enablement process to improve onboarding timeframes for future vendors."
+      - "Managed 2000 users of the Requisite BugsEye and eMerge Intranet electronic catalogue system, providing direct user support and identifying training improvements. Maintained uptime and actioned Level 2-3 support enquiries. Managed database creation and back-end management/updates, including support out of hours."
+      - "Functional and UAT tester for SAP R/3 upgrade to 4.70. Executed end-to-end scenario and regression testing to validate end-user functionality. Conducted Sarbanes-Oxley (SOX) compliance review."
+  - years: Nov 2004--Dec 2004
+    employer: "General Motors Holden"
+    url: http://www.holden.com.au
+    job: "Reporting and Database Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Reporting and Database Analyst, delivering reporting for the World Wide Procurement (WWP) department. Developed and administered reporting toolsets and redeveloped key database to streamline end of month reconciliation."
+      - "Developed reports and databases (within SAP and externally) to assist Business Optimisation team in delivering reductions in category spend. Provided SAP end-user training for WWP."
+      - "Redeveloped Microsoft Access tariff duty database to clarify duty calculations, reduce end of month processing time and provide audit logs to assist Business Optimisation in complying with Internal Audit team."
+  - years: Jun 2003--Nov 2004
+    employer: "General Motors Holden: SAP MM/SRM Implementation"
+    url: http://www.holden.com.au
+    job: "Supplier Enablement Consultant & SRM System Analyst/Administrator"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Configured, loaded and administered 15 online supplier catalogues across MRO, office supplies and computing equipment in Requisite BugsEye/eMerge. Assisted suppliers in transforming existing product catalogues to suit Holden standards for catalogues. Conducted end-to-end testing through Requisite, SAP SRM and R/3. Data cleansed catalogue masters to match Holden Indirect Material Master data standards."
+      - "Post Go-Live Support and Administrator for 2000+ users of Requisite BugsEye/eMerge Intranet electronic catalogue system. Maintained uptime and actioned Level 2-3 support enquiries. Managed database creation, including support out of hours."
+  - years: Jun 2003--Nov 2004
+    employer: "General Motors Holden: SAP MM/SRM Implementation"
+    url: http://www.holden.com.au
+    job: "Conversions (Data Migration) Analyst"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Conversions/Data Migration Analyst, delivered data migration and go-live capability for the IPMM Project, a large SAP MM implementation. Led Conversions team across multiple rollouts and managed Data Cleansing team."
+      - "Converted 20000+ Open Purchase Orders, 12000+ Vendors, 80000+ Purchasing Information Records, 60000+ materials and associated records across multiple rollouts across Australia and NZ using SAP LSME and custom upload programs. Liased with client SMEs to verify/sense-check."
+      - "Managed Data Cleansing team of Holden Master Data managers. Developed databases & spreadsheets to automate data cleansing process and significantly reduced manual data cleansing effort. Identified and analysed extensive data sets from legacy systems (MIMS & PREP) and ad-hoc databases/spreadsheets relevant for conversions."
+      - "Developed functional designs for Conversions objects. Worked with developers to refine specifications for RICEFW objects. Developed range of Conversions programs in SAP LSMW. Identified reusability of Conversions programs for business as mass create/change programs. Performed code review/QA including unit/system testing on SAP LSMW/ABAP/CATT Conversions programs. Raised issues through SAP OSS."
+      - "Provided on-site post Go-Live support at each rollout site and managed Level 1 issues."
+      - "Reviewed Stakeholder Expectations and identified key expectations to manage. Developed and administered User Readiness Survey using Professional Quest Enterprise survey tool."
+      - "Created Intranet sign-in page for SAP Single Sign-On environment."
 
 sideprojects:
-- date: 2015
-  name: "Quotes on Software Development"
-  url: http://www.quotesonsoftwaredevelopment.com
-  description:
-    - "A quick hack to play around with React.js. Displays quotes that I've collected on the art and craft of software development."
-- date: 2015
-  name: "Hashtag Testing Slack Chat"
-  url: http://hashtagtesting.com
-  description:
-    - "The largest QA community on Slack. Runs Slackin to handle registration and realtime user counts."
-- date: May 2014
-  name: "Workstation Builder"
-  url: https://github.com/mence/workstation-builder
-  description:
-    - "A shell tool to build out an OSX development environment. Chef for when you don't have Chef."
+  - date: 2015
+    name: "Quotes on Software Development"
+    url: http://www.quotesonsoftwaredevelopment.com
+    description:
+      - "A quick hack to play around with React.js. Displays quotes that I've collected on the art and craft of software development."
+  - date: 2015
+    name: "Hashtag Testing Slack Chat"
+    url: http://hashtagtesting.com
+    description:
+      - "The largest QA community on Slack. Runs Slackin to handle registration and realtime user counts."
+  - date: May 2014
+    name: "Workstation Builder"
+    url: https://github.com/mence/workstation-builder
+    description:
+      - "A shell tool to build out an OSX development environment. Chef for when you don't have Chef."
 
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: English
-geometry: letterpaper, left=35mm, right=35mm, top=17mm, bottom=40mm
+geometry: a4paper, left=35mm, right=35mm, top=17mm, bottom=22mm
 ---
+
