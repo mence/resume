@@ -167,6 +167,7 @@ appendix:
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
-lang: English
-geometry: letterpaper, left=35mm, right=35mm, top=17mm, bottom=22mm
+lang: en-US
+geometry: a4paper, left=35mm, right=35mm, top=17mm, bottom=22mm
 ---
+
