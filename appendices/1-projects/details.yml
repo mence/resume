@@ -1,3 +1,5 @@
+# yamllint disable rule:line-length
+
 ---
 # Personal details
 name: Tim Hordern
@@ -15,28 +17,43 @@ projectexperience:
     city: "Melbourne, Australia"
     job: "Head of Markets"
     tasks:
-      - "TODO"
+      - "Product and Team lead for deX Markets at GreenSync. I helped establish digital markets around the world for the trading and management of electrical assets on a cloud-based software platform."
   - years: Jun 2018-Jan 2019
     employer: "GreenSync: deX Team"
     url: https://greensync.com
     city: "Melbourne, Australia"
     job: "Team Lead"
     tasks:
-      - "TODO"
+      - "Team lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
+      - "Designed and architected the network mediation functionality of our deX Vision product to allow distribution networks to monitor and analyse electrical asset and dispatch behaviour."
+      - "Planned the development of the deX Vision integration with Schneider Electric's Advanced Distribution Management System for a much deeper continuous electrical distribution network management process."
+      - "Replatformed the deX Developer Centre to better suit developer needs, improve integration onboarding process, and assist internal teams in developing to shared platform."
   - years: Apr 2017-Dec 2017
     employer: "GreenSync: Hardware & Integrations Team"
     url: https://greensync.com
     city: "Melbourne, Australia"
     job: "Team Lead"
     tasks:
-      - "TODO"
+      - "Team lead for GreenSync's internal scaling/optimisation team. Expertise developed as the Delivery Transformation team enabled us to fully own all hardware development and software integrations across GreenSync."
+      - "Designed and architected integration with Tesla GridLogic system and PowerWall 2, as well as metering providers."
+      - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
+      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time as this role as well as continuing as an escalation point helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response process and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
+      - "Developed and implemented infrastructure as code for range of environments via Terraform & Chef using GCP, across GCE, GKE and IAM."
+      - "Configured and managed alerting and notification infrastructure, including Datadog, PagerDuty, New Relic, Sentry, Pingdom and Stackdriver systems."
+      - "Led security management and response including establishment of penetration tests and initial analysis of certification responses and answers."
   - years: Apr 2017-Dec 2017
     employer: "GreenSync: Delivery Transformation Team"
     url: https://greensync.com
     city: "Melbourne, Australia"
     job: "Team Lead"
     tasks:
-      - "TODO"
+      - "Team lead for GreenSync's internal scaling/optimisation team."
+      - "Led product and operations redesign of Peak Response Unit to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling a primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
+      - "Led standardisation of Procure-To-Deliver process for turnkey PRU 3.0 hardware solution including 'Code-Driven' procurement/configuration, fully replacing a manual process."
+      - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
+      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time as this role as well as continuing as an escalation point helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response process and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
+      - "Developed and implemented infrastructure as code for range of environments via Terraform & Chef using GCP, across GCE, GKE and IAM."
+      - "Configured and managed alerting and notification infrastructure, including Datadog, PagerDuty, New Relic, Sentry, Pingdom and Stackdriver systems."
   - years: Jun 2016-Aug 2016
     employer: "Spotify: Creator"
     url: http://www.spotify.com
@@ -304,3 +321,4 @@ lang: English
 geometry: a4paper, left=35mm, right=35mm, top=17mm, bottom=22mm
 ---
 
+# yamllint enable
