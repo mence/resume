@@ -29,8 +29,8 @@ experience:
     tasks:
       - "Product and Team Lead for deX Markets at GreenSync. I helped establish digital markets around the world for the trading and management of electrical assets on a cloud-based software platform."
       - "Designed and architected the Active Network Management integration and deX Market product for integration with UK Power Networks and Smarter Grid Solutions to help manage Distributed Energy Resources (DER)."
-      - "Helped design and architect contract types and structure within deX, to enable closed market procurement of energy resources in a trial with Simply Energy, SA Power Networks and Tesla Energy."
-      - "Recruited and onboarded team to build integration and Market platform. Faciliated inception to get team up and running understanding the problem and ready to develop in under a fortnight."
+      - "Helped design and architect contract types and structure within deX, to enable closed market procurement of energy resources in the trial with Simply Energy, SA Power Networks and Tesla Energy. Helped form and lead cross-functional team to deliver this highest priority delivery milestone. Led workshops with SAPN and Simply stakeholders to confirm process and agree on system behaviour."
+      - "Recruited and onboarded team to build ANM integration product and Market platform. Faciliated team inception to get team up and running understanding the problem and ready to develop in under a fortnight."
       - "Product Manager of the Markets product suite. Defined roadmap and strategies for growing and building market integration and trading."
   - years: 2018 -- 2019
     employer: GreenSync
@@ -40,17 +40,17 @@ experience:
     tasks:
       - "Team Lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
       - "Designed and architected the network mediation functionality of our deX Vision product to allow distribution networks to monitor and analyse electrical asset and dispatch behaviour."
-      - "Planned the development of the deX Vision integration with Schneider Electric's Advanced Distribution Management System for a much deeper continuous electrical distribution network management process."
-      - "Replatformed the deX Developer Centre to better suit developer needs, improve integration onboarding process, and assist internal teams in developing to shared platform."
+      - "Planned the development of the deX Vision product integration with Schneider Electric's Advanced Distribution Management System and an Australian distribution network organisation for a much deeper continuous electrical distribution network management process."
+      - "Replatformed the deX Developer Centre to better suit developer needs, improve integration onboarding process, and assist internal teams in developing to the shared deX platform."
   - years: 2017 -- 2018
     employer: GreenSync
     url: http://www.greensync.com.au
     job: Delivery Transformation Team Lead / Hardware & Integrations Team Lead
     city: "Melbourne, Australia"
     tasks:
-      - "Team Lead for GreenSync's internal scaling/optimisation team. Expertise developed here led us to own hardware development and software integrations across GreenSync."
-      - "Led product and operations redesign of Peak Response Unit to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling a primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
-      - "Led standardisation of Procure-To-Deliver process for turnkey PRU 3.0 hardware solution including 'Code-Driven' procurement/configuration, fully replacing a manual process."
+      - "Team Lead for GreenSync's internal scaling/optimisation team. Expertise developed here led us to transitioning to centrally own hardware development and software integrations across GreenSync."
+      - "Led product and operations redesign of Peak Response Unit (PRU) hardware unit for demand response to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling the primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
+      - "Led standardisation of Procure-To-Deliver process for turnkey PRU hardware solution including 'Code-Driven' procurement/configuration, fully replacing manual processes."
       - "Designed and architected integration with Tesla GridLogic system and PowerWall 2, as well as metering providers."
       - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
       - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time as this role as well as continuing as an escalation point helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response process and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
