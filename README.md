@@ -22,7 +22,7 @@ My resume, built using LaTeX. Because Microsoft Word resumes are so last year :s
 
 ## Result:
 
-You can see the resulting PDF that has been generated in [`output.pdf`](https://github.com/mence/resume/blob/master/output.pdf)
+You can see the resulting PDF that has been generated in [`output.pdf`](https://github.com/mence/resume/blob/master/output.pdf).
 
 ## Credit:
 
