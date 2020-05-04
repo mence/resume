@@ -12,12 +12,12 @@ urls:
 
 # Introduction
 intro: >
-  I help build better products with a product management and quality mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations.
+  I have more than 15 years of corporate experience in Australian and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager or Product Manager. I help build better products with a product management, scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
 
 seeking:
   # Example: I'm currently seeking {$roles} {in $location}.
   roles: Engineering Manager, Technical Lead or Team Lead opportunities
-  location: Melbourne, Australia
+  location: Melbourne, Australia or remote across Australia or Asia Pacific.
 
 # Sections
 experience:
@@ -27,14 +27,18 @@ experience:
     job: Head of Markets
     city: "Melbourne, Australia"
     tasks:
-      - "Product and Team lead for deX Markets at GreenSync. I helped establish digital markets around the world for the trading and management of electrical assets on a cloud-based software platform."
+      - "Product and Team Lead for deX Markets at GreenSync. I helped establish digital markets around the world for the trading and management of electrical assets on a cloud-based software platform."
+      - "Designed and architected the Active Network Management integration and deX Market product for integration with UK Power Networks and Smarter Grid Solutions to help manage Distributed Energy Resources (DER)."
+      - "Helped design and architect contract types and structure within deX, to enable closed market procurement of energy resources in a trial with Simply Energy, SA Power Networks and Tesla Energy."
+      - "Recruited and onboarded team to build integration and Market platform. Faciliated inception to get team up and running understanding the problem and ready to develop in under a fortnight."
+      - "Product Manager of the Markets product suite. Defined roadmap and strategies for growing and building market integration and trading."
   - years: 2018 -- 2019
     employer: GreenSync
     url: http://www.greensync.com.au
     job: deX Team Lead
     city: "Melbourne, Australia"
     tasks:
-      - "Team lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
+      - "Team Lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
       - "Designed and architected the network mediation functionality of our deX Vision product to allow distribution networks to monitor and analyse electrical asset and dispatch behaviour."
       - "Planned the development of the deX Vision integration with Schneider Electric's Advanced Distribution Management System for a much deeper continuous electrical distribution network management process."
       - "Replatformed the deX Developer Centre to better suit developer needs, improve integration onboarding process, and assist internal teams in developing to shared platform."
@@ -44,7 +48,7 @@ experience:
     job: Delivery Transformation Team Lead / Hardware & Integrations Team Lead
     city: "Melbourne, Australia"
     tasks:
-      - "Team lead for GreenSync's internal scaling/optimisation team. Expertise developed here led us to own hardware development and software integrations across GreenSync."
+      - "Team Lead for GreenSync's internal scaling/optimisation team. Expertise developed here led us to own hardware development and software integrations across GreenSync."
       - "Led product and operations redesign of Peak Response Unit to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling a primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
       - "Led standardisation of Procure-To-Deliver process for turnkey PRU 3.0 hardware solution including 'Code-Driven' procurement/configuration, fully replacing a manual process."
       - "Designed and architected integration with Tesla GridLogic system and PowerWall 2, as well as metering providers."
@@ -155,7 +159,7 @@ education:
 appendix:
   - name: "Project Experience"
     url: http://timhordern.com/tim-hordern-resume-projects.pdf
-    note: "More details of my consulting and work projects"
+    note: "More details of my consulting and work projects. This is a detailed listing of the projects/roles I've worked on/had."
   - name: "Side Projects"
     url: http://timhordern.com/projects
     note: "Details of some side projects I've built"
@@ -169,7 +173,7 @@ appendix:
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
-lang: en-US
+lang: english
 geometry: a4paper, left=35mm, right=25mm, top=17mm, bottom=22mm
 ---
 
