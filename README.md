@@ -2,7 +2,7 @@
 
 My resume, built using LaTeX. Because Microsoft Word resumes are so last decade :star:.
 
-## Setup
+## Setup:
 
 * Install [pandoc](https://pandoc.org/installing.html). Currently tested working against 1.19.2.1.
     * Note: installing via Homebrew returns the latest version of Pandoc, which currently breaks some of the compilation scripts.
