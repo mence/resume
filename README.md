@@ -1,6 +1,6 @@
 # Tim Hordern's Resume
 
-My resume, built using LaTeX. Because Microsoft Word resumes are so last year :star:
+My resume, built using LaTeX. Because Microsoft Word resumes are so last decade :star:
 
 ## Setup
 
