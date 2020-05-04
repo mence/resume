@@ -10,6 +10,15 @@ urls:
   - timhordern.com
   - github.com/mence
 
+# Introduction
+intro: >
+  I have more than 15 years of corporate experience in Australian and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager or Product Manager. I help build better products with a product management, scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
+
+seeking:
+  # Example: I'm currently seeking {$roles} {in $location}.
+  roles: Engineering Manager, Technical Lead or Team Lead opportunities
+  location: Melbourne, Australia or remote across Australia or Asia Pacific.
+
 projectexperience:
   - years: Jan 2019-Nov 2019
     employer: "GreenSync: deX Markets"
@@ -82,8 +91,8 @@ projectexperience:
     city: "New York, NY"
     job: "Code Style Guide Lead"
     tasks:
-      - "Implemented Javascript Style Guide in ESLint as published package for projects to easily lint their code"
-      - "Implemented Ruby Style Guide in rubocop"
+      - "Implemented Javascript Style Guide in ESLint as published package for projects to easily lint their code."
+      - "Implemented Ruby Style Guide in rubocop."
   - years: Jun 2015--Dec 2015
     employer: "XO Group: Fashion Administration Tool"
     url: http://www.xogroupinc.com
@@ -297,28 +306,96 @@ projectexperience:
       - "Reviewed Stakeholder Expectations and identified key expectations to manage. Developed and administered User Readiness Survey using Professional Quest Enterprise survey tool."
       - "Created Intranet sign-in page for SAP Single Sign-On environment."
 
+additionalexperience:
+  - years: 2009
+    employer: "HDS Australia"
+    url: http://www.hdsaustralia.com.au/
+    job: "Field Assistant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Monitored traffic volume and provided initial traffic flow analysis."
+      - "Handled local resident enquiries."
+      - "Liaised with local residents and managed enquiries."
+      - "Acted as public relations contact for regional newspaper."
+  - years: 2001-2003, 2005
+    employer: "The Choocolate Box"
+    url: https://chocolatebox.com.au/
+    job: "Retail Assistant / Warehouse Assistant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Customer service and direct marketing activities."
+      - "Point of Sale system reporting and administration."
+      - "Store management, merchandising and invoicing."
+      - "Warehouse management & replenishment activities."
+  - years: 2003
+    employer: "Daytons Accountants"
+    url: https://daytons.com.au/
+    job: "Administrative Asssistant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Book-keeping duties, including General Ledger management, account reconciliation, tax return preparation and submission."
+      - "Administrative duties."
+  - years: 1998, 1999
+    employer: "Haines Norton Chartered Accountants"
+    job: "IT Assistant / Administration Assistant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "2IC for IT Manager. Technical support representative for office; provided hardware support as well as at-desk user training and support."
+      - "Book-keeping duties, including General Ledger and account reconciliation."
+      - "Administrative duties."
+  - years: 1998
+    employer: "Ansett Australia"
+    job: "Administration Assistant"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Administrative duties."
+
+education:
+  - year: 2014 -- 2015
+    subject: Product Management Course
+    institute: General Assembly
+    city: "New York, NY"
+    url: https://generalassemb.ly/education/product-management
+  - year: 2001 -- 2005
+    subject: Bachelor of Information Systems
+    institute: University of Melbourne
+    city: "Melbourne, Australia"
+    url: https://handbook.unimelb.edu.au/view/2013/269AA?output=PDF
+    note: "Originally a double degree of Commerce and Information Systems. I graduated earlier with Bachelor of Information Sys due to a work opportunity opening up."
+  - year: 1995 - 2000
+    subject: Equivalent National Tertiary Entrance Rank (ENTER) of 98.75
+    institute: Victorian Certificate of Education (VCE)
+    city: "Melbourne, Australia"
+    url: https://www.vcaa.vic.edu.au/curriculum/vce/Pages/Index.aspx
+    note: "Ranked in the top 1.25% of VCE results, including perfect subject scores in English and Information Processing & Management (50 out of 50), and scores of 44 in Economics and 42 in Accounting."
+
 sideprojects:
+  - date: 2016
+    name: "Resume"
+    url: https://github.com/mence/resume
+    description:
+      - "Converted this project resume and my primary resume to LaTeX."
   - date: 2015
     name: "Quotes on Software Development"
     url: http://www.quotesonsoftwaredevelopment.com
     description:
-      - "A quick hack to play around with React.js. Displays quotes that I've collected on the art and craft of software development."
+      - "A quick hack to play around with React.js. Displays some quotes that I've collected on the art and craft of software development."
   - date: 2015
     name: "Hashtag Testing Slack Chat"
     url: http://hashtagtesting.com
     description:
       - "The largest QA community on Slack. Runs Slackin to handle registration and realtime user counts."
-  - date: May 2014
+  - date: 2014
     name: "Workstation Builder"
     url: https://github.com/mence/workstation-builder
     description:
-      - "A shell tool to build out an OSX development environment. Chef for when you don't have Chef."
+      - "A shell tool to build out an macOS/OSX development environment from scratch on a vanilla machine."
 
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
-lang: English
-geometry: a4paper, left=35mm, right=35mm, top=17mm, bottom=22mm
+lang: english
+geometry: a4paper, left=35mm, right=30mm, top=17mm, bottom=22mm
 ---
 
 # yamllint enable

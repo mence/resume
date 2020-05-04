@@ -90,7 +90,7 @@ $endif$
 %--------------------------------
 \begin{document}
 
-{\LARGE{\href{http://timhordern.com/resume.pdf}{$name$}}}\\[.2cm]
+{\LARGE $name$}\\[.2cm]
 
 $if(urls)$
 \begin{multicols}{2}
@@ -109,11 +109,21 @@ $endfor$
 \end{multicols}
 $endif$
 
-\href{http://timhordern.com/resume.pdf}{Main Resume Available at timhordern.com/resume}\\[.2cm]
+\href{http://timhordern.com/resume.pdf}{My main summarised resume is available at timhordern.com/resume}\\[.2cm]
 \vspace{-5pt}
 
+$if(intro)$
+\vspace{-5pt}
+$intro$
+$endif$
+
+$if(seeking)$
+\vspace{5pt}
+I'm currently seeking $seeking.roles$ in $seeking.location$.
+$endif$
+
 $if(projectexperience)$
-\section*{Resume Appendix: Detailed Project Experience}
+\section*{Resume Appendix: Detailed Project/Role Experience}
 \noindent
 $for(projectexperience)$
 \note{$projectexperience.years$}\textsc{\href{$projectexperience.url$}{$projectexperience.employer$}}\\
@@ -131,7 +141,38 @@ $endif$
 $endfor$
 $endif$
 
+$if(additionalexperience)$
+\newpage
+\section*{Resume Appendix: Additional Work Experience}
+\noindent
+$for(additionalexperience)$
+\note{$additionalexperience.years$}\textsc{\href{$additionalexperience.url$}{$additionalexperience.employer$}}\\
+\emph{$additionalexperience.job$}\\
+$additionalexperience.city$\\[.2cm]
+\vspace{-10pt}
+$if(additionalexperience.tasks)$
+\begin{itemize}
+{$for(additionalexperience.tasks)$
+{\item \fussy{{$additionalexperience.tasks$}}}\\
+$endfor$}
+\end{itemize}
+$endif$
+\vspace{5pt}
+$endfor$
+$endif$
+
+$if(education)$
+\section*{Resume Appendix: Education}
+\noindent
+$for(education)$
+\note{$education.year$}{\textbf{\href{$education.url$}{$education.subject$}}{$if(education.degree)$, $education.degree$}}$endif$\\
+\emph{$education.institute$}$if(education.city)$ -- $education.city$$endif$\\
+$education.note$\\[.2cm]
+$endfor$
+$endif$
+
 $if(sideprojects)$
+\newpage
 \section*{Resume Appendix: Side Projects}
 \noindent
 $for(sideprojects)$
