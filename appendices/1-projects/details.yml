@@ -12,12 +12,12 @@ urls:
 
 # Introduction
 intro: >
-  I have more than 15 years of corporate experience in Australian and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager or Product Manager. I help build better products with a product management, scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
+  I have more than 15 years of corporate experience in Australia and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager or Product Manager. I help build better products with a product management, scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
 
 seeking:
   # Example: I'm currently seeking {$roles} {in $location}.
   roles: Engineering Manager, Technical Lead or Team Lead opportunities
-  location: Melbourne, Australia or remote across Australia or Asia Pacific.
+  location: Melbourne, Australia or remote across Australia or Asia Pacific
 
 projectexperience:
   - years: Jan 2019-Nov 2019
