@@ -40,8 +40,11 @@ experience:
     tasks:
       - "Team Lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
       - "Designed and architected the network mediation functionality of our deX Vision product to allow distribution networks to monitor and analyse electrical asset and dispatch behaviour."
-      - "Planned the development of the deX Vision product integration with Schneider Electric's Advanced Distribution Management System and an Australian distribution network organisation for a much deeper continuous electrical distribution network management process."
-      - "Replatformed the deX Developer Centre to better suit developer needs, improve integration onboarding process, and assist internal teams in developing to the shared deX platform."
+      - "Planned the development and architecture of the deX Vision product integration with Schneider Electric's Advanced Distribution Management System and an Australian distribution network organisation for a much deeper continuous electrical distribution network management process."
+      - "Helped build submission package for successful $10m ARENA grant. Developed deX Product Roadmap for 5 years worth of product development across multiple verticals and industries. Worked with Heads of Product and Technology to establish this against broader product visions and product strategy, as well as our broader system architecture. Developed use case structure for linking product development with technical build and customer requirements."
+      - "Worked with Head of Technology and solution architect to ratify development changes to deX architecture and core product functionality. Led team through numerous system and functional changes to adapt to changing customer milestones and needs."
+      - "Replatformed the deX Developer Centre to better suit internal and external developer needs, improve integration onboarding process, and assist internal teams in developing to the shared deX platform."
+      - "Helped sign new customers to VPP platform, working in collaboration with delivery and project management teams. Prepared extensive responses to security questionnaires and established an inhouse body of knowledge on security practices and testing."
   - years: 2017 -- 2018
     employer: GreenSync
     url: http://www.greensync.com.au
@@ -53,10 +56,11 @@ experience:
       - "Led standardisation of Procure-To-Deliver process for turnkey PRU hardware solution including 'Code-Driven' procurement/configuration, fully replacing manual processes."
       - "Designed and architected integration with Tesla GridLogic system and PowerWall 2, as well as metering providers."
       - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
-      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time as this role as well as continuing as an escalation point helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response process and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
+      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time acting in role (as well as continuing as an escalation point) helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response processes and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
       - "Developed and implemented infrastructure as code for range of environments via Terraform & Chef using GCP, across GCE, GKE and IAM."
       - "Configured and managed alerting and notification infrastructure, including Datadog, PagerDuty, New Relic, Sentry, Pingdom and Stackdriver systems."
       - "Led security management and response including establishment of penetration tests and initial analysis of certification responses and answers."
+      - "Onsite consultant for Energy Queensland development of VPP for C&I customers. Established process for local whitelabeled production of hardware unit. Assisted with product development, pricing, and sales."
   - years: 2016
     employer: Spotify
     url: http://www.spotify.com
@@ -82,7 +86,7 @@ experience:
     city: "New York, NY"
     tasks:
       - "QA Engineer & Product Analyst for first continuous delivery reporting tool, developing features, prioritised and scoped work, built prototypes and developed automated test suites."
-      - "Performed functional testing on Intent's full stack which featured a combination of Javascript, Java, Rails, MySQL, Vertica, S3, MongoDB, iOS, and backend Node applications. Built production test for service verification."
+      - "Performed functional, exploratory, and user acceptance testing across Intent's full stack which featured a combination of Javascript, Java, Rails, MySQL, Vertica, S3, MongoDB, iOS, and backend Node applications. Built production tests for service verification. Built first version of a performance test suite."
       - "Grew QA team, recruiting engineers, building performance test suites, and redefined practices & recruitment processes."
   - years: 2011 -- 2013
     employer: ThoughtWorks
