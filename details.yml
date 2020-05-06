@@ -178,7 +178,7 @@ appendix:
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: english
-geometry: a4paper, left=35mm, right=25mm, top=17mm, bottom=22mm
+geometry: a4paper, left=35mm, right=25mm, top=17mm, bottom=16mm
 ---
 
 # yamllint enable
