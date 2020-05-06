@@ -411,7 +411,7 @@ sideprojects:
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: english
-geometry: a4paper, left=35mm, right=30mm, top=17mm, bottom=22mm
+geometry: a4paper, left=35mm, right=30mm, top=17mm, bottom=20mm
 ---
 
 # yamllint enable
