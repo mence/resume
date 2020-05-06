@@ -26,27 +26,34 @@ projectexperience:
     city: "Melbourne, Australia"
     job: "Head of Markets"
     tasks:
-      - "Product and Team lead for deX Markets at GreenSync. I helped establish digital markets around the world for the trading and management of electrical assets on a cloud-based software platform."
+      - "Product and Team Lead for deX Markets at GreenSync. I helped establish digital markets around the world for the trading and management of electrical assets on a cloud-based software platform."
+      - "Designed and architected the Active Network Management integration and deX Market product for integration with UK Power Networks and Smarter Grid Solutions to help manage Distributed Energy Resources (DER)."
+      - "Helped design and architect contract types and structure within deX, to enable closed market procurement of energy resources in the trial with Simply Energy, SA Power Networks and Tesla Energy. Helped form and lead cross-functional team to deliver this highest priority delivery milestone. Led workshops with SAPN and Simply stakeholders to confirm process and agree on system behaviour."
+      - "Recruited and onboarded team to build ANM integration product and Market platform. Faciliated team inception to get team up and running understanding the problem and ready to develop in under a fortnight."
+      - "Product Manager of the Markets product suite. Defined roadmap and strategies for growing and building market integration and trading."
   - years: Jun 2018-Jan 2019
     employer: "GreenSync: deX Team"
     url: https://greensync.com
     city: "Melbourne, Australia"
     job: "Team Lead"
     tasks:
-      - "Team lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
+      - "Team Lead for GreenSync's Decentralised Energy Exchange (deX), a digital marketplace that changes the way electricity is produced, used, stored and traded."
       - "Designed and architected the network mediation functionality of our deX Vision product to allow distribution networks to monitor and analyse electrical asset and dispatch behaviour."
-      - "Planned the development of the deX Vision integration with Schneider Electric's Advanced Distribution Management System for a much deeper continuous electrical distribution network management process."
-      - "Replatformed the deX Developer Centre to better suit developer needs, improve integration onboarding process, and assist internal teams in developing to shared platform."
+      - "Planned the development and architecture of the deX Vision product integration with Schneider Electric's Advanced Distribution Management System and an Australian distribution network organisation for a much deeper continuous electrical distribution network management process."
+      - "Helped build submission package for successful $10m ARENA grant. Developed deX Product Roadmap for 5 years worth of product development across multiple verticals and industries. Worked with Heads of Product and Technology to establish this against broader product visions and product strategy, as well as our broader system architecture. Developed use case structure for linking product development with technical build and customer requirements."
+      - "Worked with Head of Technology and solution architect to ratify development changes to deX architecture and core product functionality. Led team through numerous system and functional changes to adapt to changing customer milestones and needs."
+      - "Replatformed the deX Developer Centre to better suit internal and external developer needs, improve integration onboarding process, and assist internal teams in developing to the shared deX platform."
+      - "Helped sign new customers to VPP platform, working in collaboration with delivery and project management teams. Prepared extensive responses to security questionnaires and established an inhouse body of knowledge on security practices and testing."
   - years: Apr 2017-Dec 2017
     employer: "GreenSync: Hardware & Integrations Team"
     url: https://greensync.com
     city: "Melbourne, Australia"
     job: "Team Lead"
     tasks:
-      - "Team lead for GreenSync's internal scaling/optimisation team. Expertise developed as the Delivery Transformation team enabled us to fully own all hardware development and software integrations across GreenSync."
+      - "Team Lead for GreenSync's hardware and software integrations team. Expertise developed as Delivery Transformation led us to transitioning to centrally own hardware development and software integrations across GreenSync."
       - "Designed and architected integration with Tesla GridLogic system and PowerWall 2, as well as metering providers."
       - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
-      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time as this role as well as continuing as an escalation point helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response process and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
+      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time acting in role (as well as continuing as an escalation point) helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response processes and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
       - "Developed and implemented infrastructure as code for range of environments via Terraform & Chef using GCP, across GCE, GKE and IAM."
       - "Configured and managed alerting and notification infrastructure, including Datadog, PagerDuty, New Relic, Sentry, Pingdom and Stackdriver systems."
       - "Led security management and response including establishment of penetration tests and initial analysis of certification responses and answers."
@@ -57,12 +64,13 @@ projectexperience:
     job: "Team Lead"
     tasks:
       - "Team lead for GreenSync's internal scaling/optimisation team."
-      - "Led product and operations redesign of Peak Response Unit to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling a primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
-      - "Led standardisation of Procure-To-Deliver process for turnkey PRU 3.0 hardware solution including 'Code-Driven' procurement/configuration, fully replacing a manual process."
+      - "Led product and operations redesign of Peak Response Unit (PRU) hardware unit for demand response to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling the primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
+      - "Led standardisation of Procure-To-Deliver process for turnkey PRU hardware solution including 'Code-Driven' procurement/configuration, fully replacing manual processes."
       - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
-      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time as this role as well as continuing as an escalation point helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response process and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
+      - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time acting in role (as well as continuing as an escalation point) helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response processes and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
       - "Developed and implemented infrastructure as code for range of environments via Terraform & Chef using GCP, across GCE, GKE and IAM."
       - "Configured and managed alerting and notification infrastructure, including Datadog, PagerDuty, New Relic, Sentry, Pingdom and Stackdriver systems."
+      - "Onsite consultant for Energy Queensland development of VPP for C&I customers. Established process for local whitelabeled production of hardware unit. Assisted with product development, pricing, and sales."
   - years: Jun 2016-Aug 2016
     employer: "Spotify: Creator"
     url: http://www.spotify.com
@@ -110,6 +118,14 @@ projectexperience:
       - "QA Engineer & Product Analyst for reporting team. Wrote automated tests using Cucumber-JVM and helped build our automated reporting tool as the first continuously deployed Docker application in production. Removed the previous manual process entirely, initially with UI macros and email automation."
       - "Worked with product and technology leads to define priorities, clarify architecture, improve testability, and manage scope creep & organizational challenges."
       - "Worked with internal stakeholders to resolve production critical issues rapidly and develop messaging for external impact."
+  - years: 2013 -- 2015
+    employer: Intent Media
+    url: http://www.intentmedia.com
+    job: Agile QA Engineer
+    city: "New York, NY"
+    tasks:
+      - "Performed functional, exploratory, and user acceptance testing across Intent's full stack which featured a combination of Javascript, Java, Rails, MySQL, Vertica, S3, MongoDB, iOS, and backend Node applications. Built production tests for service verification. Built first version of a performance test suite."
+      - "Grew QA team, recruiting engineers, building performance test suites, and redefined practices & recruitment processes."
   - years: Apr 2013--May 2013
     employer: "ThoughtWorks Project: iOS (iPhone/iPad) Rail Network Management Application"
     url: http://www.thoughtworks.com
