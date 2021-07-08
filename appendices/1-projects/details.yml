@@ -14,12 +14,20 @@ urls:
 intro: >
   I have more than 15 years of corporate experience in Australia and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager or Product Manager. I help build better products with a product management, scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
 
-seeking:
-  # Example: I'm currently seeking {$roles} in {$location}.
-  roles: Engineering Manager, Technical Lead or Team Lead opportunities
-  location: Melbourne, Australia or remote across Australia or Asia Pacific
+# seeking:
+#   # Example: I'm currently seeking {$roles} in {$location}.
+#   roles: Engineering Manager, Technical Lead or Team Lead opportunities
+#   location: Melbourne, Australia or remote across Australia or Asia Pacific
 
 projectexperience:
+  - years: Apr 2020-Apr 2021
+    employer: Hydro Tasmania
+    url: https://www.hydro.com.au
+    job: Product & Development Specialist
+    city: "Melbourne, Australia"
+    tasks:
+      - "Product Manager for Hydro's Virtual Power Plant product, leading development with external software team, delivering first commercial VPP trading in FCAS market."
+      - "Designed and architected integration with Tesla and AEMO VPP APIs. Facilitated registration, site testing, metering and software test engagement for AEMO program. Worked with potential customers to understand value stacks and estimates for battery infrastructure, market possibilities, and ways to facilitate Distributed Energy Resources (DER) being traded by Hydro's trading team."
   - years: Jan 2019-Nov 2019
     employer: "GreenSync: deX Markets"
     url: https://greensync.com
@@ -65,7 +73,7 @@ projectexperience:
     tasks:
       - "Team lead for GreenSync's internal scaling/optimisation team."
       - "Led product and operations redesign of Peak Response Unit (PRU) hardware unit for demand response to enable scaling and outsourced manufacturing, leading to the build of 100s of units enabling the primary revenue stream for GreenSync. One of these units currently enables Australia's largest standalone Virtual Power Plant (VPP)."
-      - "Led standardisation of Procure-To-Deliver process for turnkey PRU hardware solution including 'Code-Driven' procurement/configuration, fully replacing manual processes."
+      - "Led standardisation of Procure-To-Deliver process for turnkey PRU hardware solution including 'Code-Driven' procurement/configuration, fully replacing manual processes. Organised and completed training for Restricted Electrician Class 2 License to allow staff to work in electrical hardware environments and to provide greater onsite support."
       - "Managed and configured Google Cloud Platform (GCP) infrastructure, including as owner for 5+ primary systems."
       - "Primary site reliability engineer and on call and after hours responder for all GreenSync production infrastructure for over 12 months. My time acting in role (as well as continuing as an escalation point) helped establish common patterns and solutions for incident response at GreenSync. I developed formal incident response processes and systems for the technology team to help scale incident response at GreenSync from 2 developers to across the development team, as well as helping develop formal business continuity responses."
       - "Developed and implemented infrastructure as code for range of environments via Terraform & Chef using GCP, across GCE, GKE and IAM."
@@ -323,6 +331,28 @@ projectexperience:
       - "Created Intranet sign-in page for SAP Single Sign-On environment."
 
 additionalexperience:
+  - years: 2019
+    employer: "Pause Fest"
+    url: https://www.pausefest.com.au/
+    job: "Event Volunteer"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Handled on site event information and directions for visitors."
+      - "Handled scheduling of key industry personnel meet and greets."
+      - "Event setup and teardown. Guiding and headcount activities."
+  - years: 2013
+    employer: "Leaders in Software and Art (LISA)"
+    url: http://www.softwareandart.com/
+    job: "Event Volunteer"
+    city: "New York, NY"
+    tasks:
+      - "Handled on site activities such as seat allocation, registrations, and event setup/teardown."
+  - years: 2010
+    employer: "Pirate Hearts Ninja Ultimate Frisbee Club"
+    job: "Co-Founder"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Co-founder of club. Handled wide range of tasks for club including registrations, communications, social activities, travel planning, and tournament organisation."
   - years: 2009
     employer: "HDS Australia"
     url: http://www.hdsaustralia.com.au/
@@ -333,6 +363,27 @@ additionalexperience:
       - "Handled local resident enquiries."
       - "Liaised with local residents and managed enquiries."
       - "Acted as public relations contact for regional newspaper."
+  - years: 2009
+    employer: "Beach Ultimate Frisbee Tournament"
+    job: "Tournament Co-Director"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Director for beach ultimate tournament. Liased with administration officials, council representatives, logistics work, operational support."
+  - years: 2009
+    employer: "Indoor Ultimate Frisbee Tournament"
+    job: "Tournament Organising Committee"
+    city: "Melbourne, Australia"
+    tasks:
+      - "On site operational support."
+  - years: 2008-2013
+    employer: "Chilly Ultimate Frisbee Club"
+    url: https://www.chillyultimate.com.au/
+    job: "President"
+    city: "Melbourne, Australia"
+    tasks:
+      - "Club president. Re-elected for 5 years."
+      - "Handled club administration, communications, social and internet presence, club registration, interactions with league and tournament committees."
+      - "Organised and ran club AGMs and other administrative meetings."
   - years: 2001-2003, 2005
     employer: "The Choocolate Box"
     url: https://chocolatebox.com.au/
@@ -353,10 +404,15 @@ additionalexperience:
       - "Administrative duties."
   - years: 1998, 1999
     employer: "Haines Norton Chartered Accountants"
-    job: "IT Assistant / Administration Assistant"
+    job: "IT Technician"
     city: "Melbourne, Australia"
     tasks:
-      - "2IC for IT Manager. Technical support representative for office; provided hardware support as well as at-desk user training and support."
+      - "IT technician, reporting to IT Manager. Technical support representative for office; provided hardware support as well as at-desk user training and support."
+  - years: 1998, 1999
+    employer: "Haines Norton Chartered Accountants"
+    job: "Administration Assistant"
+    city: "Melbourne, Australia"
+    tasks:
       - "Book-keeping duties, including General Ledger and account reconciliation."
       - "Administrative duties."
   - years: 1998
@@ -372,6 +428,12 @@ education:
     institute: General Assembly
     city: "New York, NY"
     url: https://generalassemb.ly/education/product-management
+  - year: 2009 -- 2010
+    subject: Masters of Public Policy and Management
+    institute: University of Melbourne
+    city: "Melbourne, Australia"
+    url: https://study.unimelb.edu.au/find/courses/graduate/master-of-public-policy-and-management/
+    note: "Incomplete. Returned to work due to change in personal circumstances."
   - year: 2001 -- 2005
     subject: Bachelor of Information Systems
     institute: University of Melbourne

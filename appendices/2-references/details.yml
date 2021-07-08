@@ -1,0 +1,54 @@
+# yamllint disable rule:line-length
+
+---
+# Personal details
+name: Tim Hordern
+email: tim@timhordern.com
+
+# Insert URLs without http://
+urls:
+  - timhordern.com
+  - github.com/mence
+
+references:
+  - name: "Bob Smith"
+    employer: "GreenSync"
+    job: "Project Manager"
+    relationship: "Direct report to me"
+    phone: "12345"
+    email: "bob@bob.com"
+
+# additionalexperience:
+#   - years: 2009
+#     employer: "HDS Australia"
+#     url: http://www.hdsaustralia.com.au/
+#     job: "Field Assistant"
+#     city: "Melbourne, Australia"
+#     tasks:
+#       - "Monitored traffic volume and provided initial traffic flow analysis."
+#       - "Handled local resident enquiries."
+#       - "Liaised with local residents and managed enquiries."
+#       - "Acted as public relations contact for regional newspaper."
+
+# education:
+#   - year: 2014 -- 2015
+#     subject: Product Management Course
+#     institute: General Assembly
+#     city: "New York, NY"
+#     url: https://generalassemb.ly/education/product-management
+
+# sideprojects:
+#   - date: 2016
+#     name: "Resume"
+#     url: https://github.com/mence/resume
+#     description:
+#       - "Converted this project resume and my primary resume to LaTeX."
+
+# Settings
+mainfont: Hoefler Text
+fontsize: 11pt
+lang: english
+geometry: a4paper, left=15mm, right=15mm, top=17mm, bottom=20mm
+---
+
+# yamllint enable

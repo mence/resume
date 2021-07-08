@@ -1,0 +1,239 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, a4paper]{article}
+
+% LAYOUT
+%--------------------------------
+% Margins
+\usepackage{geometry}
+\geometry{$geometry$}
+
+% Do not indent paragraphs
+\setlength\parindent{0in}
+
+% Enable multicolumns
+\usepackage{multicol}
+\setlength{\columnsep}{-3.5cm}
+
+% Uncomment to suppress page numbers
+\pagenumbering{gobble}
+
+% Don't hyphenate words
+\usepackage[none]{hyphenat}
+
+% LANGUAGE
+%--------------------------------
+% Set the main language
+$if(lang)$
+\usepackage{polyglossia}
+\setmainlanguage{$lang$}
+$endif$
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+% Cool ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+% LISTS
+%--------------------------------
+% Modify list styling for more precision
+\usepackage{paralist} %for the environment compactitem with less space between items
+\let\itemize\compactitem
+  \let\enditemize\endcompactitem
+  \let\enumerate\compactenum
+  \let\endenumerate\endcompactenum
+  \let\description\compactdesc
+  \let\enddescription\endcompactdesc
+  \pltopsep=-10pt
+  \plitemsep=-2pt
+  \plparsep=-10pt
+
+% PDF SETUP
+%--------------------------------
+\usepackage{hyperref}
+\hypersetup
+{
+  pdfauthor={$name$},
+  pdfsubject={$name$'s References},
+  pdftitle={$name$'s Professional References},
+  colorlinks, breaklinks, xetex, bookmarks,
+  filecolor=black,
+  urlcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  citecolor=[rgb]{0.117,0.682,0.858}
+}
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+{\LARGE $name$}\\[.2cm]
+
+$if(urls)$
+\begin{multicols}{2}
+$endif$
+
+\vspace{-10pt}
+
+\href{mailto:$email$}{$email$}\\
+
+$if(urls)$
+\columnbreak
+
+$for(urls)$
+\href{http://$urls$}{$urls$}\\
+$endfor$
+\end{multicols}
+$endif$
+
+% $if(urls)$
+% \begin{multicols}{2}
+% $endif$
+
+% \vspace{-10pt}
+
+% \href{mailto:$email$}{$email$}\\
+
+% $if(urls)$
+% \columnbreak
+
+% $for(urls)$
+% \href{http://$urls$}{$urls$}\\
+% $endfor$
+% \end{multicols}
+% $endif$
+
+% $if(references)$
+% \section*{Professional References}
+% $for(references)$
+% $references.name
+% $references.employer
+% $references.job
+% $references.relationship
+% $references.phone
+% $references.email
+% $endfor$
+% $endif$
+
+\section*{Professional References}
+
+\subsection*{ }
+
+\begin{multicols}{2}
+{\large \textbf{Robert (Rob) Postill}}\\[.2cm]
+Chief Technology Officer - \href{https://ynomia.io}{Ynomia}\\
+\begin{itemize}
+\item \fussy{{Known via: \href{https://greensync.com}{GreenSync}}}\\
+\item \fussy{{Their role(s) at the time: Head of Engineering}}\\
+\item \fussy{{Connection: Rob was my manager}}\\
+\item \fussy{{Time worked together: 2017 -- 2019}}\\
+\item \fussy{{Phone: 0412 345 678}}\\
+\item \fussy{{Email: bob@bob.com}}\\
+\end{itemize}
+
+\subsection*{ }
+{\large \textbf{Alex Ong}}\\[.2cm]
+\begin{itemize}
+  \item \fussy{{Known via: \href{https://greensync.com}{GreenSync}}}\\
+  \begin{itemize}
+    \item \fussy{{Their role(s) at the time: Technical Lead, then Product Manager, then Head of Engineering}}\\
+    \item \fussy{{Connection: Colleague and leader}}\\
+    \item \fussy{{Time worked together: 2017 -- 2019}}\\
+  \end{itemize}
+  \item \fussy{{Known via: \href{https://thoughtworks.com}{ThoughtWorks}}}\\
+  \begin{itemize}
+    \item \fussy{{Their role(s) at the time: Senior Developer}}\\
+    \item \fussy{{Connection: Colleague}}\\
+    \item \fussy{{Time worked together: 2011 -- 2013}}\\
+  \end{itemize}
+  \item \fussy{{Phone: 0412 345 678}}\\
+  \item \fussy{{Email: bob@bob.com}}\\
+\end{itemize}
+
+\subsection*{ }
+{\large \textbf{James Walker}}\\[.2cm]
+\begin{itemize}
+  \item \fussy{{Known via: \href{https://greensync.com}{GreenSync}}}\\
+  \begin{itemize}
+    \item \fussy{{Their role(s) at the time: Engineer, then Product Manager}}\\
+    \item \fussy{{Connection: Reported to me, then Product Manager}}\\
+  \end{itemize}
+  \item \fussy{{Contact Details}}\\
+  \begin{itemize}
+    \item \fussy{{Phone: 0412 345 678}}\\
+    \item \fussy{{Email: bob@bob.com}}\\
+    \item \fussy{{LinkedIn: http://linkedin.com/foobar}}\\
+  \end{itemize}
+\end{itemize}
+
+\subsection*{ }
+{\large \textbf{Nicholas (Nick) Burgin}}\\[.2cm]
+\begin{itemize}
+  \item \fussy{{Known via: \href{https://greensync.com}{GreenSync}}}\\
+  \begin{itemize}
+    \item \fussy{{Their role at the time: Developer}}\\
+    \item \fussy{{Connection: Reported to me}}\\
+  \end{itemize}
+  \item \fussy{{Contact Details}}\\
+  \begin{itemize}
+    \item \fussy{{Phone: 0412 345 678}}\\
+    \item \fussy{{Email: bob@bob.com}}\\
+  \end{itemize}
+\end{itemize}
+
+\subsection*{ }
+{\large \textbf{Kate O'Caroll}}\\[.2cm]
+\begin{itemize}
+  \item \fussy{{Known via: \href{https://greensync.com}{GreenSync}}}\\
+  \begin{itemize}
+    \item \fussy{{Their role at the time: ???}}\\
+    \item \fussy{{Connection: I reported to Kate}}\\
+  \end{itemize}
+  \item \fussy{{Contact Details}}\\
+  \begin{itemize}
+    \item \fussy{{Phone: 0412 345 678}}\\
+    \item \fussy{{Email: bob@bob.com}}\\
+  \end{itemize}
+\end{itemize}
+
+\subsection*{ }
+{\large \textbf{Adrian Bruinhout}}\\[.2cm]
+\begin{itemize}
+  \item \fussy{{Known via: \href{https://intent.com}{Intent Media}}}\\
+  \begin{itemize}
+    \item \fussy{{Their role at the time: Developer}}\\
+    \item \fussy{{Connection: Colleague}}\\
+  \end{itemize}
+  \item \fussy{{Contact Details}}\\
+  \begin{itemize}
+    \item \fussy{{Phone: 0412 345 678}}\\
+    \item \fussy{{Email: bob@bob.com}}\\
+  \end{itemize}
+\end{itemize}
+
+\end{multicols}
+
+\end{document}

@@ -12,18 +12,26 @@ urls:
 
 # Introduction
 intro: >
-  I have more than 15 years of corporate experience in Australia and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager or Product Manager. I help build better products with a product management, scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
+  I have more than 15 years of corporate experience in Australia and internationally through a variety of senior roles in tech companies and startups. I have worn many hats and can successfully lead Technical and Product teams as a Team Lead, Technical Lead, Engineering Manager, or Product Manager. I help teams build better products with a scalable growth, and quality-driven mindset. Sometimes I just do all the things. I enjoy working in small teams with fantastic people, building valuable products, on interesting technology, in the right culture. I prefer small startups or growth teams inside wider organisations where I can have an outsize impact.
 
-seeking:
-  # Example: I'm currently seeking {$roles} in {$location}.
-  roles: Engineering Manager, Technical Lead or Team Lead opportunities
-  location: Melbourne, Australia or remote across Australia or Asia Pacific
+# seeking:
+#   # Example: I'm currently seeking {$roles} in {$location}.
+#   roles: Engineering Manager, Technical Lead or Team Lead opportunities
+#   location: Melbourne, Australia
 
 # Sections
 experience:
+  - years: 2020 -- 2021
+    employer: Hydro Tasmania
+    url: https://www.hydro.com.au
+    job: Product & Development Specialist
+    city: "Melbourne, Australia"
+    tasks:
+      - "Product Manager for Hydro's Virtual Power Plant product, leading development with external software team, delivering first commercial VPP trading in FCAS market."
+      - "Designed and architected integration with Tesla and AEMO VPP APIs. Facilitated registration, site testing, metering and software test engagement for AEMO program. Worked with potential customers to understand value stacks and estimates for battery infrastructure, market possibilities, and ways to facilitate Distributed Energy Resources (DER) being traded by Hydro's trading team."
   - years: 2019
     employer: GreenSync
-    url: http://www.greensync.com.au
+    url: https://greensync.com
     job: Head of Markets
     city: "Melbourne, Australia"
     tasks:
@@ -34,7 +42,7 @@ experience:
       - "Product Manager of the Markets product suite. Defined roadmap and strategies for growing and building market integration and trading."
   - years: 2018 -- 2019
     employer: GreenSync
-    url: http://www.greensync.com.au
+    url: https://greensync.com
     job: deX Team Lead
     city: "Melbourne, Australia"
     tasks:
@@ -47,7 +55,7 @@ experience:
       - "Helped sign new customers to VPP platform, working in collaboration with delivery and project management teams. Prepared extensive responses to security questionnaires and established an inhouse body of knowledge on security practices and testing."
   - years: 2017 -- 2018
     employer: GreenSync
-    url: http://www.greensync.com.au
+    url: https://greensync.com
     job: Delivery Transformation Team Lead / Hardware & Integrations Team Lead
     city: "Melbourne, Australia"
     tasks:
@@ -63,7 +71,7 @@ experience:
       - "Onsite consultant for Energy Queensland development of VPP for C&I customers. Established process for local whitelabeled production of hardware unit. Assisted with product development, pricing, and sales."
   - years: 2016
     employer: Spotify
-    url: http://www.spotify.com
+    url: https://www.spotify.com
     job: QA Tester / Test Engineer
     city: "New York, NY"
     tasks:
@@ -90,7 +98,7 @@ experience:
       - "Grew QA team, recruiting engineers, building performance test suites, and redefined practices & recruitment processes."
   - years: 2011 -- 2013
     employer: ThoughtWorks
-    url: http://www.thoughtworks.com
+    url: https://www.thoughtworks.com
     job: Senior Consultant
     city: "Melbourne, Australia"
     tasks:
@@ -98,7 +106,7 @@ experience:
       - "Product Designer for a suite of iOS applications for over 30,000 government staff and public customers. Ran user testing of iOS applications with range of users, including in-situ user testing sessions. Designed wireframes and prototypes for iOS applications and information kiosks. Designed icons and UI, from wireframe sketches to Illustrator assets."
   - years: 2010
     employer: Infosys
-    url: http://www.infosys.com
+    url: https://www.infosys.com
     job: Technical Test Lead
     city: "Melbourne, Australia"
     tasks:
@@ -115,7 +123,7 @@ experience:
       - "Test Analyst for Oracle RPM implementation and in-store & POS retail systems for supermarket chain, handling $35 billion in transactions for 8.8 million consumers."
   - years: 2003 -- 2005
     employer: General Motors Holden
-    url: http://www.holden.com.au
+    url: https://www.holden.com.au
     job: Analyst
     city: "Melbourne, Australia"
     tasks:
@@ -125,11 +133,11 @@ experience:
       - "Delivered data migration and go-live capability for large SAP MM/SRM implementation. Led conversions team across multiple rollouts and managed data cleansing team."
 
 education:
-  - year: 2014 -- 2015
-    subject: Product Management Course
-    institute: General Assembly
-    city: "New York, NY"
-    url: https://generalassemb.ly/education/product-management
+  # - year: 2014 -- 2015
+  #   subject: Product Management Course
+  #   institute: General Assembly
+  #   city: "New York, NY"
+  #   url: https://generalassemb.ly/education/product-management
     # year: 2009 -- 2010
     # subject: Master of Public Policy and Management (incomplete)
     # institute: University of Melbourne
@@ -167,9 +175,9 @@ appendix:
   - name: "Side Projects"
     url: http://timhordern.com/projects
     note: "Details of some side projects I've built"
-  - name: "/now"
-    url: http://timhordern.com/now
-    note: "What I'm working on now"
+  # - name: "/now"
+  #   url: http://timhordern.com/now
+  #   note: "What I'm working on now"
 # - name: "/other"
 #   url: http://timhordern.com/other
 #   note: "The non-work side of me: mostly ultimate frisbee, photography, travel, coffee and cats."
