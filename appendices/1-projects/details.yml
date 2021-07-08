@@ -448,6 +448,11 @@ education:
     note: "Ranked in the top 1.25% of VCE results, including perfect subject scores in English and Information Processing & Management (50 out of 50), and scores of 44 in Economics and 42 in Accounting."
 
 sideprojects:
+  - date: 2021
+    name: "Windows Workstation Builder"
+    url: https://github.com/mence/windows-workstation-builder
+    description:
+      - "A series of PowerShell scripts to build out an Windows desktop environment from scratch on a vanilla Windows 10 machine."
   - date: 2016
     name: "Resume"
     url: https://github.com/mence/resume
