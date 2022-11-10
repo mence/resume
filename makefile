@@ -4,7 +4,7 @@ FLAGS = --latex-engine=xelatex
 # FLAGS = --pdf-engine=xelatex
 
 output.pdf : $(src)
-	$(TEX) $(filter-out $<,$^ ) -o $@ --template=$< $(FLAGS)
+	$(TEX) $(filter-out $<,$^ ) -o $@ --verbose --template=$< $(FLAGS)
 
 .PHONY: clean
 clean :
