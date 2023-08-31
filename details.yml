@@ -191,25 +191,32 @@ education:
 #   year: 2005--2022
 #   detail: "President of 2 clubs for 5 years, captained, traveled to Malaysia & the Phillippines to compete"
 
-appendix:
-  - name: "Project Experience"
-    url: http://timhordern.com/tim-hordern-resume-projects.pdf
-    note: "More details of my consulting and work projects. This is a detailed listing of the projects/roles I've worked on/had."
-  - name: "Side Projects"
-    url: http://timhordern.com/projects
-    note: "Details of some side projects I've built"
-  # - name: "/now"
-  #   url: http://timhordern.com/now
-  #   note: "What I'm working on now"
-# - name: "/other"
-#   url: http://timhordern.com/other
-#   note: "The non-work side of me: mostly ultimate frisbee, photography, travel, coffee and cats."
+# appendix:
+#   - name: "Project Experience"
+#     url: http://timhordern.com/tim-hordern-resume-projects.pdf
+#     note: "More details of my consulting and work projects. This is a detailed listing of the projects/roles I've worked on/had."
+#   - name: "Side Projects"
+#     url: http://timhordern.com/projects
+#     note: "Details of some side projects I've built."
+#   - name: "/now"
+#     url: http://timhordern.com/now
+#     note: "What I'm working on now"
+#   - name: "/other"
+#     url: http://timhordern.com/other
+#     note: "The non-work side of me: mostly ultimate frisbee, photography, travel, coffee and cats."
+
+# fun-fact: "I am both a cat and a dog person."
+
+last-updated: "August 2023"
+
+# SEO crap
+pdfseokeywords: "experienced engineering manager melbourne, engineering manager melbourne, engineering manager australia, product manager melbourne, tech lead melbourne, delivery manager melbourne, technical product manager melbourne, product manager resume, if you are reading this i admit i am impressed you went this far"
 
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: english
-geometry: a4paper, left=35mm, right=25mm, top=17mm, bottom=16mm
+geometry: a4paper, left=35mm, right=20mm, top=17mm, bottom=16mm
 ---
 
 # yamllint enable
