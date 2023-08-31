@@ -4,8 +4,10 @@
 # Personal details
 name: Tim Hordern
 email: tim@timhordern.com
+phone: 0467 600 715
+# pronouns: he / him
 
-# Insert URLs without http://
+# Insert URLs without http(s)://
 urls:
   - timhordern.com
   - github.com/mence
