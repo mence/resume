@@ -73,41 +73,64 @@ $endif$
 
 % PDF SETUP
 %--------------------------------
+\usepackage{xcolor}
+\definecolor{originallinkcolor}{RGB}{30,174,219}
+\definecolor{uniquelinkcolor}{RGB}{56,158,210} % Hex 389ED2
+\definecolor{darkenedlinkcolor}{RGB}{51,133,180} % Hex 3385B4
+\definecolor{contenttextlinkcolor}{RGB}{35,93,127} % Hex 235D7F
+\definecolor{plainwhitecolor}{RGB}{255,255,255}
+\definecolor{plainblackcolor}{RGB}{0,0,0}
 \usepackage{hyperref}
 \hypersetup
+% % note: original color was [rgb]{0.117,0.682,0.858} as hyperref uses internal array between [0-1] for RGB references
+% % StackExchange link says you can compute RGB into decimal array of 255: https://tex.stackexchange.com/questions/239461/color-rgb-in-latex
+% % hyperref will convert real RGB values to [rgb] decimals when called via [RGB]
 {
+  verbose,
   pdfauthor={$name$},
   pdfsubject={$name$'s Resume},
   pdftitle={$name$'s Resume},
-  colorlinks, breaklinks, xetex, bookmarks,
+  pdfproducer={https://github.com/mence/resume},
+  pdfkeywords={$name$ resume, $name$, $pdfseokeywords$},
+  colorlinks, breaklinks, xetex, bookmarks, final, pdfdisplaydoctitle,
   filecolor=black,
-  urlcolor=[rgb]{0.117,0.682,0.858},
-  linkcolor=[rgb]{0.117,0.682,0.858},
-  citecolor=[rgb]{0.117,0.682,0.858}
+  urlcolor=darkenedlinkcolor,
+  linkcolor=darkenedlinkcolor,
+  citecolor=darkenedlinkcolor
 }
 
 % DOCUMENT
 %--------------------------------
 \begin{document}
 
+% Resume Heading
+
 {\LARGE $name$}\\[.2cm]
 
+% Trigger multiple columns if reference URLs present to ensure contacts on left, URLs on right
 $if(urls)$
 \begin{multicols}{2}
 $endif$
 
 \vspace{-10pt}
 
+$if(pronouns)$
+$pronouns$\\
+$endif$
 \href{mailto:$email$}{$email$}\\
+$if(phone)$
+$phone$\\
+$endif$
 
 $if(urls)$
 \columnbreak
-
 $for(urls)$
 \href{http://$urls$}{$urls$}\\
 $endfor$
 \end{multicols}
 $endif$
+
+% Resume Summary (Introduction and What I'm looking for)
 
 $if(intro)$
 \vspace{-5pt}
