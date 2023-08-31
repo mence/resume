@@ -23,6 +23,15 @@ seeking:
 
 # Sections
 experience:
+  - years: 2021 -- 2023
+    employer: Career Break
+    job: Sabbatical
+    tasks:
+      - "Took a 18 months career break for personal reasons (coinciding with lockdowns), including:"
+      - "Animal Attendant at \\href{https://rspcavic.org/about-us/}{RSPCA Victoria}, ensuring hygiene, medical care, rehabilitation, veterinarian assistance, and behavioural support for dogs in shelter, aiming to find them new homes, having completed \\href{https://rspcavic.org.au/pet-training/certificate-ii-in-animal-studies}{Certificate II in Animal Studies at RSPCA Victoria}. Helped local dog owners to train, and enrich their animals, including medical and dietary advice."
+      - "Migrated disparate software services to centralised Docker hosting in homelab rack, upgraded home networking to Layer 3 managed infrastructure, rebuilt home desktops and repurposed old machines."
+      - "Expanded smart home automation with further intergrations, and centralised hosting and data collection. Transitioned range of legacy appliances to smart control via \\href{https://www.home-assistant.io/}{HA} container."
+      - "Learning about LLMs using locally run \\href{https://ai.meta.com/blog/large-language-model-llama-meta-ai/}{LLaMA} 13B & \\href{https://ai.meta.com/llama/}{Llama2} \\href{https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md}{13B} 8-bit models, and OpenAI's GPT-3.5 & \\href{https://openai.com/gpt-4}{GPT-4} models on \\href{https://openai.com/chatgpt}{ChatGPT}. Learning how to train models on local datasets, such as personal notes, to help in analysis and search via structured prompt engineering. Investigating how to run nano sized models on edge hardware, such as Raspberry Pi's."
   - years: 2020 -- 2021
     employer: Hydro Tasmania
     url: https://www.hydro.com.au
