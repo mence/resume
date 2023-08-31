@@ -110,35 +110,38 @@ experience:
     job: Senior Consultant
     city: "Melbourne, Australia"
     tasks:
-      - "Held a number of consultant QA Engineer / Tester roles, notably testing Ruby, Node, Android and iOS applications, developing test automation and conducting exploratory testing. Additionally, I built performance test suites, as well as managed and optimised Jenkins continuous integration systems. Internal advisor on iOS application automation and submission processes."
+      - "Held a number of consultant QA Engineer / Tester roles, working across advertising, non-profits, supermarkets, real estate, industry bodies, and legal industries."
+      - "Tested Node, Ruby/Rails, .NET, Android, and iOS apps, developing test automation and conducting exploratory testing. I built performance test suites, as well as managed and optimised Jenkins continuous integration systems. Advisor for clients on Apple App Store submission process, and iOS application automation. Conducted accessibility testing including vision impaired testing."
       - "Product Designer for a suite of iOS applications for over 30,000 government staff and public customers. Ran user testing of iOS applications with range of users, including in-situ user testing sessions. Designed wireframes and prototypes for iOS applications and information kiosks. Designed icons and UI, from wireframe sketches to Illustrator assets."
+      - "Helped grow QA Engineering team, developing technical test and case study recruitment tests, and interviewing and screening candidates."
   - years: 2010
     employer: Infosys
     url: https://www.infosys.com
     job: Technical Test Lead
     city: "Melbourne, Australia"
     tasks:
-      - "Test Manager for SAP SRM Upgrade project, leading onsite and remote testing teams."
+      - "Test Manager for SAP SRM upgrade project, leading onsite and remote testing team of 20 people."
+      - "Developed test strategy, test plans, and scripts for test team. Executed exploratory and functional testing to ensure test target completion. Triaged bugs, and managed defect tracking and reporting across sites."
   - years: 2006 -- 2009
     employer: Accenture
     url: http://www.accenture.com
     job: Consultant
     city: "Melbourne, Australia"
     tasks:
-      - "Worked with a number of Australian and multinational organisations through their transformations."
-      - "Established and coordinated project management office (PMO), planned future project phase resourcing & activities for transformation of $14bn mining company."
-      - "Planned and delivered data migration effort for large SAP PM/MM upgrade, supporting maintenance of 11,000+ vehicles travelling more than 350 million kms. Managed team of developers, analysts and client SMEs. Built test strategy and conversions for SAP MM/PM upgrade."
-      - "Test Analyst for Oracle RPM implementation and in-store & POS retail systems for supermarket chain, handling $35 billion in transactions for 8.8 million consumers."
+      - "Worked with a number of Australian and multinational enterprises through their organisational and digital transformations."
+      - "Data Migration Consultant and Test Consultant for postal organisation. Planned and delivered data migration for SAP PM/MM upgrade, for maintenance of over 11,000 vehicles travelling more than 350 million kms annually. Managed team of developers, analysts and client SMEs. Built test & coversions strategies for SAP MM/PM upgrade."
+      - "Test Analyst for Oracle RPM implementation and in-store & POS retail systems for supermarket chain, handling $35 billion in transactions for 8.8 million consumers. Supported and managed team of 10 manual test analysts."
+      - "Project Management Office Consultant for $14bn mining company. Established and led PMO, planned future project phase resourcing & activities for upcoming digital transformation and SAP implementation."
   - years: 2003 -- 2005
     employer: General Motors Holden
     url: https://www.holden.com.au
     job: Analyst
     city: "Melbourne, Australia"
     tasks:
-      - "Reporting/System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay processes."
-      - "SAP SRM Analyst & System Administrator, developed and managed data in Requisite electronic catalogues, in conjunction with external vendors."
-      - "Reporting and Database Analyst for procurement department, reporting directly to executive team and CEO. Developed and administered reporting toolsets and redeveloped key database to streamline end of month reconciliation."
-      - "Delivered data migration and go-live capability for large SAP MM/SRM implementation. Led conversions team across multiple rollouts and managed data cleansing team."
+      - "Reporting Analyst and Database Analyst for procurement department, delivering reporting to executive team, CEO, and General Motors Global VP of Procurement. Developed and administered reporting toolsets and redeveloped key database to streamline end of month reconciliation."
+      - "Data Migration Analyst and Test Analyst for large SAP MM and SRM implementation. Delivered data migration and go-live capability. Led conversions team across multiple rollouts and managed data cleansing team."
+      - "SAP SRM System Analyst and System Administrator, developed and managed data in Requisite internal online store. Worked with vendors to onboard, cleanse, and manage their products for procurement and fulfilment. Created checklists and tools to optimise cleansing process, and to test data sets prior to migration."
+      - "Reporting Analyst and System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay processes."
 
 education:
   # - year: 2014 -- 2015
