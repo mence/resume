@@ -26,8 +26,8 @@
 %--------------------------------
 % Set the main language
 $if(lang)$
-\usepackage{polyglossia}
-\setmainlanguage{$lang$}
+  \usepackage{polyglossia}
+  \setmainlanguage{$lang$}
 $endif$
 
 % TYPOGRAPHY
@@ -119,86 +119,163 @@ $if(seeking)$
 I'm currently seeking $seeking.roles$ in $seeking.location$.
 $endif$
 
-$if(skills)$
-\subsection*{Skills}
-\begin{itemize}
-    $for(skills)$
-      \item $skills$\\
-    $endfor$
-\end{itemize}
-$endif$
-
-$if(workinterests)$
-\subsection*{Professional Interests}
-\begin{itemize}
-    $for(workinterests)$
-      \item $workinterests$\\
-    $endfor$
-\end{itemize}
-$endif$
-
 \vspace{0pt}
+
+% Work Experience
 
 \section*{Work Experience}
 \noindent
 $for(experience)$
-\note{$experience.years$}\textsc{\href{$experience.url$}{$experience.employer$}}\\
-\emph{$experience.job$} -- $experience.city$\\[.2cm]
-\vspace{-10pt}
+\note{\fontspec[Scale=1.3]{$mainfont$}{$experience.years$}}
+{\fontspec[Scale=1.1]{$mainfont$}{\textsc{$if(experience.employer)$\href{$experience.url$}{$experience.employer$}$endif$$if(experience.city)$} -- \emph{$experience.city$}$endif$}}\\[5pt]
+\textbf{$experience.job$}\\[5pt]
 $if(experience.tasks)$
+\vspace{-10pt}
 \begin{itemize}
-{$for(experience.tasks)$
-{\item \fussy{{$experience.tasks$}}}\\
-$endfor$}
+$for(experience.tasks)$
+{
+  \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+  \item \fussy{\fontspec[Scale=1.0]{$mainfont$}{$experience.tasks$}}
+  \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+}\\
+$endfor$
 \end{itemize}
 $endif$
 \vspace{5pt}
 $endfor$
 
-\vspace{-11pt} % Reduce whitespace required
+% Education
+
 $if(education)$
+\vspace{-11pt} % Reduce whitespace required
 \section*{Education}
 \vspace{-3pt} % Reduce whitespace under this minor heading
 \noindent
 $for(education)$
-\note{$education.year$}{\textbf{\href{$education.url$}{$education.subject$}}{$if(education.degree)$, $education.degree$}}$endif$\\
-\emph{$education.institute$}$if(education.city)$ -- $education.city$$endif$\\
-$education.note$\\[.2cm]
+\note{$education.year$}{\textsc{\href{$education.url$}{$education.subject$}}{$if(education.degree)$, $education.degree$}}$endif$\\
+\emph{$education.institute$}{$if(education.city)$ -- $education.city$$endif$}\\
+$if(education.note)$
+\hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+\vspace{5pt}{\fontspec[Scale=0.8]{$mainfont$}{$education.note$}}\\
+\hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+$endif$\\ % dirty styling hack that I have no idea why it works
 $endfor$
+$endif$
+
+% Addional Roles (eg casual experience, part time roles, board positions)
+
+$if(additional-roles)$
+  \vspace{-10pt}
+  \section*{Additional Experience}
+  \noindent
+  $for(additional-roles)$
+    \note{$additional-roles.years$}\textsc{\href{$additional-roles.url$}{$additional-roles.employer$}}\\
+    \emph{$additional-roles.job$} -- $additional-roles.city$\\[.2cm]
+    \vspace{-10pt}
+    $if(additional-roles.tasks)$
+      \begin{itemize}
+        {$for(additional-roles.tasks)$
+          {
+            \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+            \item \fussy{{$additional-roles.tasks$}}}\\
+            \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+        $endfor$}
+      \end{itemize}
+    $endif$
+    \vspace{10pt}
+  $endfor$
+$endif$
+
+% Other items
+
+$if(skills)$
+  \subsection*{Skills}
+  \begin{itemize}
+      $for(skills)$
+      {
+        \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+        \item \fussy{$skills$}\\
+        \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+      }
+      $endfor$
+  \end{itemize}
+$endif$
+
+$if(workinterests)$
+  \subsection*{Professional Interests}
+  \begin{itemize}
+      $for(workinterests)$
+        {
+          \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+          \item $workinterests$\\
+          \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+        }
+      $endfor$
+  \end{itemize}
 $endif$
 
 $if(languages)$
-\section*{Languages}
-$for(languages)$
-\emph{$languages.language$} ($languages.proficiency$)\\
-$endfor$
+  \section*{Languages}
+  $for(languages)$
+    {
+      \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+      \emph{$languages.language$} -- ($languages.proficiency$)\\
+      \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+    }
+  $endfor$
 $endif$
 
 $if(projects)$
-\section*{Projects}
-$for(projects)$
-\emph{\href{$projects.url$}{$projects.project$}}\\
-{$projects.description$}
-$endfor$
+  \section*{Projects}
+  $for(projects)$
+    {
+      \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+      \emph{\href{$projects.url$}{$projects.project$}}\\
+      \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+    }
+  {$projects.description$}
+  $endfor$
 $endif$
 
-$if(personalinterests)$
-\section*{Other}
-$for(personalinterests)$
-\note{$personalinterests.year$}\textbf{$personalinterests.interest$}\\
-{$personalinterests.detail$}
-$endfor$
+$if(personal-interests)$
+  \section*{Other}
+  $for(personal-interests)$
+    {
+      \note{$personal-interests.year$}\textbf{$personal-interests.interest$}\\
+      $personal-interests.detail$
+    }
+  $endfor$
 $endif$
 
-\vspace{-20pt} % Reduce whitespace required between minor subsections
+% Appendices
+
 $if(appendix)$
-\section*{Further Information}
-\vspace{-3pt} % Reduce whitespace under this minor heading
-$for(appendix)$
-{\textbf{\href{$appendix.url$}{$appendix.name$}}}\\
-\emph{$appendix.note$}\\[.2cm]
-\vspace{-1pt} % Shrink this section a little
-$endfor$
+  \vspace{-20pt} % Reduce whitespace required between minor subsections
+  \section*{Further Information}
+  \vspace{-3pt} % Reduce whitespace under this minor heading
+  $for(appendix)$
+    {\textbf{\href{$appendix.url$}{$appendix.name$}}}\\
+    \emph{$appendix.note$}\\[.2cm]
+    \vspace{-1pt} % Shrink this section a little
+  $endfor$
+$endif$
+
+% Last updated
+
+$if(last-updated)$
+  \vspace{10pt}
+  \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+  {\textcolor{plainwhitecolor}{\fontspec[Scale=0.7]{$mainfont$}{Last updated: {$last-updated$}}}\\
+  \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
+$endif$
+
+% Personal fun fact
+
+$if(fun-fact)$
+  \vspace{-10pt}
+  \hypersetup{urlcolor=contenttextlinkcolor, linkcolor=contenttextlinkcolor}
+  \emph{\fontspec[Scale=0.7]{$mainfont$}{$fun-fact$}}\\
+  \hypersetup{urlcolor=darkenedlinkcolor, linkcolor=darkenedlinkcolor}
 $endif$
 
 \end{document}
