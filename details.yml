@@ -80,30 +80,30 @@ experience:
   - years: 2016
     employer: Spotify
     url: https://www.spotify.com
-    job: QA Tester / Test Engineer
-    city: "New York, NY"
+    job: Test Engineer
+    city: "New York, USA"
     tasks:
-      - "Front-end developer for internal analytics visualisation project. Built React.js frontend rendering C3.js charts for Google BigQuery results. Implemented build system using Webpack, ESLint, and Karma. Helped build and deploy Jenkins continuous deployment (CD) infrastructure."
-      - "Helped implement end to end Dockerized Selenium Java tests for Creator project."
+      - "Front-end Developer for internal analytics visualisation project. Built React.js frontend rendering C3.js charts of Google BigQuery results on Spotify dataset. Implemented build system using Webpack, ESLint, and Karma. Helped build and deploy Jenkins continuous deployment (CD) infrastructure."
+      - "Helped implement end to end Docker Selenium Java tests and test strategy for legal compliance solution with org-wide exposure."
   - years: 2015 -- 2016
     employer: XO Group
     url: http://xogroupinc.com/
     job: Lead Software Engineer in Test
-    city: "New York, NY"
+    city: "New York, USA"
     tasks:
-      - "Lead Test Engineer for internal React.js app, building features, infrastructure, automation suites & the CI build system, after helping rescue original project. Helped shape user flows and built up library of React UI components to match designs."
+      - "Lead Test Engineer for internal React custom CMS for \\href{https://www.theknot.com}{The Knot}, building features, infrastructure, test automation & the CI build system, after helping rescue original project. Helped shape user flows and built up library of React UI components to match designs. Coached and paired with developers to help retain key personnel. Managed challenging consultant resources and stakeholders."
       - "Built first Docker application using continuous delivery pipeline for content team. Built tooling to clone production apps & data into local Docker containers for a better development environment. Rebuilt Jenkins environments for faster feedback & smaller build queues."
-      - "Ran first ever XO internal hackathon with 20 apps built, including one saving $80k/year."
-      - "Pushed to improve code quality, using developer pairing/coaching, building style guides & linters, and implementing improved testing practices & standards."
+      - "Established and ran first ever XO internal hackathon across 10 teams and 2 locations,with 20 apps built, providing numerous team efficiency gains, and an app saving $80k/year for the organisation."
+      - "Drove code quality improvements, using developer pairing/coaching, building style guides & linters, advocating for and implementing improved testing practices & standards."
   - years: 2013 -- 2015
     employer: Intent Media
     url: http://www.intentmedia.com
     job: Agile QA Engineer
-    city: "New York, NY"
+    city: "New York, USA"
     tasks:
-      - "QA Engineer & Product Analyst for first continuous delivery reporting tool, developing features, prioritised and scoped work, built prototypes and developed automated test suites."
-      - "Performed functional, exploratory, and user acceptance testing across Intent's full stack which featured a combination of Javascript, Java, Rails, MySQL, Vertica, S3, MongoDB, iOS, and backend Node applications. Built production tests for service verification. Built first version of a performance test suite."
-      - "Grew QA team, recruiting engineers, building performance test suites, and redefined practices & recruitment processes."
+      - "QA Engineer and Product Manager for customer reporting tool, developed features, prioritising and scoping work, building prototypes, and developing automated test suites. Helped to make this project become Intent's first continually deployed project."
+      - "Performed functional, exploratory, and user acceptance testing across Intent's full stack, comprising a variety of JS (including 3rd party site injection), Java, Rails, MySQL, Vertica, AWS infra, MongoDB, iOS, and backend Node applications, against a huge range of browsers, apps, and traffic types, sized for traffic loads across US and European scale traffic. Built production test suites for service verification. Developed test suites to assist in soak performance verification."
+      - "Recruited for QA team and engineers, participating through the entire hiring channel. Worked with Head of QA to improve hiring practices, write PDs, and perform reach outs at Meetups. Helped coach QAs to become mids/seniors, and establish & lead teams of their own."
   - years: 2011 -- 2013
     employer: ThoughtWorks
     url: https://www.thoughtworks.com
