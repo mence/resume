@@ -144,23 +144,35 @@ experience:
       - "Reporting Analyst and System Analyst for SAP R/3 AP, invoicing and Procure-To-Pay processes."
 
 education:
-  # - year: 2014 -- 2015
-  #   subject: Product Management Course
-  #   institute: General Assembly
-  #   city: "New York, NY"
-  #   url: https://generalassemb.ly/education/product-management
-    # year: 2009 -- 2010
-    # subject: Master of Public Policy and Management (incomplete)
-    # institute: University of Melbourne
-    # city: "Melbourne, Australia"
-    # url: https://government.unimelb.edu.au/degrees/23-master-of-public-policy-and-management
-    # note: "Concentration on project management and implementation."
+  - year: 2021
+    subject: Certificate II in Animal Studies
+    institute: "RSPCA Victoria & Box Hill Institute"
+    city: "Melbourne, Australia"
+    url: https://rspcavic.org.au/pet-training/certificate-ii-in-animal-studies
+  - year: 2014 -- 2015
+    subject: Product Management
+    institute: General Assembly
+    city: "New York, USA"
+    url: https://generalassemb.ly/education/product-management
+  - year: 2009 -- 2010
+    subject: Master of Public Policy and Management (Incomplete)
+    institute: University of Melbourne
+    city: "Melbourne, Australia"
+    url: https://government.unimelb.edu.au/degrees/23-master-of-public-policy-and-management
+    note: "Concentration on project management and implementation. Left course early to pursue work opportunities."
   - year: 2001 -- 2005
     subject: Bachelor of Information Systems
     institute: University of Melbourne
     city: "Melbourne, Australia"
     url: https://handbook.unimelb.edu.au/view/2013/269AA?output=PDF
-    note: "Originally a double degree of Commerce and Information Systems. Graduated earlier with B.InfoSys to pursue work opportunities."
+    note: "Originally a double degree of \\href{https://handbook.unimelb.edu.au}{Commerce and Information Systems}. Graduated early with \\href{https://handbook.unimelb.edu.au/view/2013/269AA?output=PDF}{B.InfoSys} for work opportunity."
+
+# additional-roles:
+#   - years: Now
+#     employer: RSPCA Victoria
+#     url: https://rspcavic.org.au
+#     job: Animal Attendant
+#     city: "Melbourne, Australia"
 
 # languages:
 # - language: JavaScript
