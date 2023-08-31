@@ -33,13 +33,13 @@ experience:
       - "Expanded smart home automation with further intergrations, and centralised hosting and data collection. Transitioned range of legacy appliances to smart control via \\href{https://www.home-assistant.io/}{HA} container."
       - "Learning about LLMs using locally run \\href{https://ai.meta.com/blog/large-language-model-llama-meta-ai/}{LLaMA} 13B & \\href{https://ai.meta.com/llama/}{Llama2} \\href{https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md}{13B} 8-bit models, and OpenAI's GPT-3.5 & \\href{https://openai.com/gpt-4}{GPT-4} models on \\href{https://openai.com/chatgpt}{ChatGPT}. Learning how to train models on local datasets, such as personal notes, to help in analysis and search via structured prompt engineering. Investigating how to run nano sized models on edge hardware, such as Raspberry Pi's."
   - years: 2020 -- 2021
-    employer: Hydro Tasmania
+    employer: Hydro Tasmania & Momentum Energy
     url: https://www.hydro.com.au
-    job: Product & Development Specialist
+    job: Product Manager
     city: "Melbourne, Australia"
     tasks:
-      - "Product Manager for Hydro's Virtual Power Plant product, leading development with external software team, delivering first commercial VPP trading in FCAS market."
-      - "Designed and architected integration with Tesla and AEMO VPP APIs. Facilitated registration, site testing, metering and software test engagement for AEMO program. Worked with potential customers to understand value stacks and estimates for battery infrastructure, market possibilities, and ways to facilitate Distributed Energy Resources (DER) being traded by Hydro's trading team."
+      - "Product Manager for \\href{https://www.momentumenergy.com.au/business/commercial-industrial}{Hydro's Virtual Power Plant commercial product}, leading development with consultant team, delivering first commercial & industrial VPP trading in \\href{https://aemo.com.au/-/media/files/electricity/nem/security_and_reliability/ancillary_services/guide-to-ancillary-services-in-the-national-electricity-market.pdf}{FCAS markets}."
+      - "Designed and solution architected integration with Tesla Energy and AEMO VPP APIs. Facilitated registration, site testing, metering, and software test validation for \\href{https://aemo.com.au/newsroom/news-updates/aemo-shares-fourth-and-final-vpp-knowledge-sharing-report-ahead-of-trial-conclusion}{AEMO industry trial implementation}. Helped potential customers to identify value stacks for battery infrastructure, market opportunities, and GTM opportunities for Hydro to trade upon."
   - years: 2019
     employer: GreenSync
     url: https://greensync.com
